@@ -1,4 +1,4 @@
-name: Pruebas de Base de Datos
+name: Pruebas de Base de Datos y TPS
 
 on: [push]
 
@@ -26,16 +26,32 @@ jobs:
           sudo apt-get update
           sudo ACCEPT_EULA=Y apt-get install -y mssql-tools unixodbc-dev
 
-      - name: Cargar archivos de la carpeta database y medir rendimiento
+      - name: Cargar archivos, medir tiempos individuales y TPS
         run: |
-          echo "=== 1. Ejecutando los archivos de la carpeta database/ ==="
-          
+          echo "=== 1. EJECUTANDO ARCHIVOS DE LA CARPETA DATABASE ==="
           for archivo in ./database/*.sql; do
             if [ -f "$archivo" ]; then
-              echo "Ejecutando: $archivo"
-              /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -i "$archivo"
+              echo "--------------------------------------------------"
+              echo "Ejecutando archivo: $archivo"
+              echo "--------------------------------------------------"
+              # Muestra el tiempo exacto que tarda cada archivo .sql en ejecutarse
+              /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SET STATISTICS TIME ON;" -i "$archivo"
             fi
           done
           
-          echo "=== 2. Midiendo el tiempo de respuesta de tus consultas ==="
-          /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SET STATISTICS TIME ON; SELECT COUNT(*) FROM dbo.Venta;"
+          echo "=== 2. MIDIENDO TRANSACCIONES POR SEGUNDO (TPS) EN dbo.Venta ==="
+          NUM_TRANSACCIONES=100
+          INICIO=$(date +%s%N)
+          
+          for i in $(seq 1 $NUM_TRANSACCIONES); do
+            # Consulta estándar de conteo sobre la tabla venta
+            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SELECT COUNT(*) FROM dbo.Venta;" > /dev/null
+          done
+          
+          FIN=$(date +%s%N)
+          DURACION=$(echo "scale=3; ($FIN - $INICIO)/1000000000" | bc)
+          TPS=$(echo "scale=2; $NUM_TRANSACCIONES / $DURACION" | bc)
+          
+          echo "Total de transacciones ejecutadas: $NUM_TRANSACCIONES"
+          echo "Tiempo total: $DURACION segundos"
+          echo ">>> RENDIMIENTO CALCULADO: $TPS Transacciones por Segundo (TPS) <<<"
