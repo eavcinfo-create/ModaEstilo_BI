@@ -1,4 +1,4 @@
-name: Pruebas de Base de Datos y TPS
+name: Pruebas de Base de Datos y TPS por Archivo
 
 on: [push]
 
@@ -26,30 +26,43 @@ jobs:
           sudo apt-get update
           sudo ACCEPT_EULA=Y apt-get install -y mssql-tools unixodbc-dev
 
-      - name: Cargar archivos, medir tiempos individuales y TPS
+      - name: Medir tiempos individuales y TPS por cada archivo .sql
         run: |
-          echo "=== 1. EJECUTANDO ARCHIVOS DE LA CARPETA DATABASE ==="
+          echo "=== VERIFICANDO ARCHIVOS EN LA CARPETA DATABASE ==="
+          ls -la ./database/
+          
+          echo "=== INICIANDO PRUEBAS DE RENDIMIENTO INDIVIDUALES ==="
+          
           for archivo in ./database/*.sql; do
             if [ -f "$archivo" ]; then
               echo "--------------------------------------------------"
-              echo "Ejecutando archivo: $archivo"
+              echo "Procesando archivo: $archivo"
               echo "--------------------------------------------------"
+              
+              # 1. Medir el tiempo exacto que tarda este archivo en ejecutarse
+              INICIO_ARCHIVO=$(date +%s%N)
               /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -i "$archivo"
+              FIN_ARCHIVO=$(date +%s%N)
+              
+              DURACION_ARCHIVO=$(echo "scale=3; ($FIN_ARCHIVO - $INICIO_ARCHIVO)/1000000000" | bc)
+              echo "Tiempo transcurrido para $archivo: $DURACION_ARCHIVO segundos"
+              
+              # 2. Calcular las TPS específicas para este archivo realizando 100 consultas de prueba
+              echo "Calculando TPS para este escenario..."
+              NUM_TRANSACCIONES=100
+              INICIO_TPS=$(date +%s%N)
+              
+              for i in $(seq 1 $NUM_TRANSACCIONES); do
+                /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SELECT COUNT(*) FROM dbo.Venta;" > /dev/null
+              done
+              
+              FIN_TPS=$(date +%s%N)
+              DURACION_TPS=$(echo "scale=3; ($FIN_TPS - $INICIO_TPS)/1000000000" | bc)
+              TPS=$(echo "scale=2; $NUM_TRANSACCIONES / $DURACION_TPS" | bc)
+              
+              echo ">>> RESULTADO PARA $archivo: $TPS Transacciones por Segundo (TPS) ($DURACION_TPS s) <<<"
+              echo ""
             fi
           done
           
-          echo "=== 2. MIDIENDO TRANSACCIONES POR SEGUNDO (TPS) EN dbo.Venta ==="
-          NUM_TRANSACCIONES=100
-          INICIO=$(date +%s%N)
-          
-          for i in $(seq 1 $NUM_TRANSACCIONES); do
-            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SELECT COUNT(*) FROM dbo.Venta;" > /dev/null
-          done
-          
-          FIN=$(date +%s%N)
-          DURACION=$(echo "scale=3; ($FIN - $INICIO)/1000000000" | bc)
-          TPS=$(echo "scale=2; $NUM_TRANSACCIONES / $DURACION" | bc)
-          
-          echo "Total de transacciones ejecutadas: $NUM_TRANSACCIONES"
-          echo "Tiempo total: $DURACION segundos"
-          echo ">>> RENDIMIENTO CALCULADO: $TPS Transacciones por Segundo (TPS) <<<"
+          echo "=== TODAS LAS PRUEBAS FINALES CON ÉXITO ==="
