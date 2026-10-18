@@ -74,10 +74,10 @@ jobs:
           TPS2=$(echo "scale=2; $NUM_TRANSACCIONES / $DURACION_TPS2" | bc)
           echo ">>> [BI_Demo] Cliente: $TPS2 TPS ($DURACION_TPS2 s) <<<"
 
-          # Producto
+          # Articulo
           INICIO_TPS3=$(date +%s%N)
           for i in $(seq 1 $NUM_TRANSACCIONES); do
-            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_BI_Demo" -Q "SELECT COUNT(*) FROM dbo.Producto;" > /dev/null
+            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_BI_Demo" -Q "SELECT COUNT(*) FROM dbo.Articulo;" > /dev/null
           done
           FIN_TPS3=$(date +%s%N)
           DURACION_TPS3=$(echo "scale=3; ($FIN_TPS3 - $INICIO_TPS3)/1000000000" | bc)
@@ -92,7 +92,7 @@ jobs:
           # Venta
           INICIO_TPS4=$(date +%s%N)
           for i in $(seq 1 $NUM_TRANSACCIONES); do
-            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_Final" -Q "SELECT COUNT(*) FROM Venta;" > /dev/null
+            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_Final" -Q "SELECT COUNT(*) FROM dbo.Venta;" > /dev/null
           done
           FIN_TPS4=$(date +%s%N)
           DURACION_TPS4=$(echo "scale=3; ($FIN_TPS4 - $INICIO_TPS4)/1000000000" | bc)
@@ -102,17 +102,17 @@ jobs:
           # Cliente
           INICIO_TPS5=$(date +%s%N)
           for i in $(seq 1 $NUM_TRANSACCIONES); do
-            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_Final" -Q "SELECT COUNT(*) FROM Cliente;" > /dev/null
+            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_Final" -Q "SELECT COUNT(*) FROM dbo.Cliente;" > /dev/null
           done
           FIN_TPS5=$(date +%s%N)
           DURACION_TPS5=$(echo "scale=3; ($FIN_TPS5 - $INICIO_TPS5)/1000000000" | bc)
           TPS5=$(echo "scale=2; $NUM_TRANSACCIONES / $DURACION_TPS5" | bc)
           echo ">>> [Final] Cliente: $TPS5 TPS ($DURACION_TPS5 s) <<<"
 
-          # Producto
+          # Articulo
           INICIO_TPS6=$(date +%s%N)
           for i in $(seq 1 $NUM_TRANSACCIONES); do
-            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_Final" -Q "SELECT COUNT(*) FROM Producto;" > /dev/null
+            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_Final" -Q "SELECT COUNT(*) FROM dbo.Articulo;" > /dev/null
           done
           FIN_TPS6=$(date +%s%N)
           DURACION_TPS6=$(echo "scale=3; ($FIN_TPS6 - $INICIO_TPS6)/1000000000" | bc)
