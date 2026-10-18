@@ -1,11 +1,11 @@
-name: Pruebas Avanzadas y TPS con Filtros
+name: Pruebas Avanzadas, Tiempos y TPS en Ambas Bases de Datos
 
 on: [push]
 
 jobs:
   probar-rendimiento:
     runs-on: ubuntu-latest
-
+    
     services:
       mssql:
         image: mcr.microsoft.com/mssql/server:2022-latest
@@ -26,28 +26,55 @@ jobs:
           sudo apt-get update
           sudo ACCEPT_EULA=Y apt-get install -y mssql-tools unixodbc-dev
 
-      - name: Cargar archivos y medir TPS con consulta filtrada
+      - name: Ejecutar scripts y medir TPS en ModaEstilo_BI_Demo y ModaEstilo_Final
         run: |
-          echo "=== 1. EJECUTANDO ARCHIVOS DE LA BASE DE DATOS ==="
+          echo "=== VERIFICANDO ARCHIVOS EN LA CARPETA DATABASE ==="
+          ls -la ./database/
+          
+          echo "=== 1. EJECUTANDO ARCHIVOS DE LA BASE DE DATOS Y MIDIENDO TIEMPOS ==="
           for archivo in ./database/*.sql; do
             if [ -f "$archivo" ]; then
-              echo "Ejecutando: $archivo"
-              /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SET STATISTICS TIME ON;" -i "$archivo"
+              echo "--------------------------------------------------"
+              echo "Procesando archivo: $archivo"
+              echo "--------------------------------------------------"
+              
+              INICIO_ARCHIVO=$(date +%s%N)
+              /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -i "$archivo"
+              FIN_ARCHIVO=$(date +%s%N)
+              
+              DURACION_ARCHIVO=$(echo "scale=3; ($FIN_ARCHIVO - $INICIO_ARCHIVO)/1000000000" | bc)
+              echo ">>> Tiempo de ejecución individual para $archivo: $DURACION_ARCHIVO segundos <<<"
+              echo ""
             fi
           done
-
-          echo "=== 2. MIDIENDO TRANSACCIONES POR SEGUNDO (TPS) CON CONSULTA AVANZADA ==="
+          
           NUM_TRANSACCIONES=100
-          INICIO=$(date +%s%N)
 
+          echo "=== 2. MIDIENDO TPS EN ModaEstilo_BI_Demo.dbo.Venta ==="
+          INICIO_TPS1=$(date +%s%N)
+          
           for i in $(seq 1 $NUM_TRANSACCIONES); do
-            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SELECT COUNT(*) FROM dbo.Venta WHERE Total > 0;" > /dev/null
+            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_BI_Demo" -Q "SELECT COUNT(*) FROM dbo.Venta;" > /dev/null
           done
+          
+          FIN_TPS1=$(date +%s%N)
+          DURACION_TPS1=$(echo "scale=3; ($FIN_TPS1 - $INICIO_TPS1)/1000000000" | bc)
+          TPS1=$(echo "scale=2; $NUM_TRANSACCIONES / $DURACION_TPS1" | bc)
+          
+          echo "Tiempo total ModaEstilo_BI_Demo: $DURACION_TPS1 segundos"
+          echo ">>> RENDIMIENTO CALCULADO: $TPS1 TPS en ModaEstilo_BI_Demo.dbo.Venta <<<"
+          echo ""
 
-          FIN=$(date +%s%N)
-          DURACION=$(echo "scale=3; ($FIN - $INICIO)/1000000000" | bc)
-          TPS=$(echo "scale=2; $NUM_TRANSACCIONES / $DURACION" | bc)
-
-          echo "Total de transacciones ejecutadas: $NUM_TRANSACCIONES"
-          echo "Tiempo total: $DURACION segundos"
-          echo ">>> RENDIMIENTO CALCULADO (AVANZADO): $TPS Transacciones por Segundo (TPS) <<<"
+          echo "=== 3. MIDIENDO TPS EN ModaEstilo_Final.dbo.Venta ==="
+          INICIO_TPS2=$(date +%s%N)
+          
+          for i in $(seq 1 $NUM_TRANSACCIONES); do
+            /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -d "ModaEstilo_Final" -Q "SELECT COUNT(*) FROM dbo.Venta;" > /dev/null
+          done
+          
+          FIN_TPS2=$(date +%s%N)
+          DURACION_TPS2=$(echo "scale=3; ($FIN_TPS2 - $INICIO_TPS2)/1000000000" | bc)
+          TPS2=$(echo "scale=2; $NUM_TRANSACCIONES / $DURACION_TPS2" | bc)
+          
+          echo "Tiempo total ModaEstilo_Final: $DURACION_TPS2 segundos"
+          echo ">>> RENDIMIENTO CALCULADO: $TPS2 TPS en ModaEstilo_Final.dbo.Venta <<<"
