@@ -34,8 +34,7 @@ jobs:
               echo "--------------------------------------------------"
               echo "Ejecutando archivo: $archivo"
               echo "--------------------------------------------------"
-              # Muestra el tiempo exacto que tarda cada archivo .sql en ejecutarse
-              /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SET STATISTICS TIME ON;" -i "$archivo"
+              /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -i "$archivo"
             fi
           done
           
@@ -44,7 +43,6 @@ jobs:
           INICIO=$(date +%s%N)
           
           for i in $(seq 1 $NUM_TRANSACCIONES); do
-            # Consulta estándar de conteo sobre la tabla venta
             /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SELECT COUNT(*) FROM dbo.Venta;" > /dev/null
           done
           
