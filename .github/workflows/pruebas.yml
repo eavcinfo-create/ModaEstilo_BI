@@ -4,38 +4,38 @@ on: [push]
 
 jobs:
   probar-rendimiento:
-     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
+    
+    services:
+      mssql:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        env:
+          ACCEPT_EULA: "Y"
+          SA_PASSWORD: "PasswordFuerte123"
+        ports:
+          - 1433:1433
 
-     services:
-       mssql:
-         image: mcr.microsoft.com/mssql/server:2022-latest
-         environment:
-           ACCEPT_EULA: "Y"
-           SA_PASSWORD: "PasswordFuerte123"
-         ports:
-           - 1433:1433
+    steps:
+      - name: Descargar tu código
+        uses: actions/checkout@v4
 
-     steps:
-       - name: Descargar tu código
-         uses: actions/checkout@v4
+      - name: Instalar herramientas de SQL Server
+        run: |
+          sudo curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+          sudo curl https://packages.microsoft.com/config/ubuntu/22.04/prod.list > /etc/apt/sources.list.d/msprod.list
+          sudo apt-get update
+          sudo ACCEPT_EULA=Y apt-get install -y mssql-tools unixodbc-dev
 
-       - name: Instalar herramientas de SQL Server
-         run: |
-           sudo curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-           sudo curl https://packages.microsoft.com/config/ubuntu/22.04/prod.list > /etc/apt/sources.list.d/msprod.list
-           sudo apt-get update
-           sudo ACCEPT_EULA=Y apt-get install -y mssql-tools unixodbc-dev
-
-       - name: Cargar archivos de la carpeta database y medir rendimiento
-         run: |
-           echo "=== 1. Ejecutando los archivos de la carpeta database/ ==="
-
-           for archivo in ./database/*.sql; do
-             if [ -f "$archivo" ]; then
-               echo "Ejecutando: $archivo"
-               /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -i "$archivo"
-             fi
-           done
-
-           echo "=== 2. Midiendo el tiempo de respuesta de tus consultas ==="
-           /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SET STATISTICS TIME ON; SELECT COUNT(*) FROM dbo.Venta;"
+      - name: Cargar archivos de la carpeta database y medir rendimiento
+        run: |
+          echo "=== 1. Ejecutando los archivos de la carpeta database/ ==="
+          
+          for archivo in ./database/*.sql; do
+            if [ -f "$archivo" ]; then
+              echo "Ejecutando: $archivo"
+              /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -i "$archivo"
+            fi
+          done
+          
+          echo "=== 2. Midiendo el tiempo de respuesta de tus consultas ==="
+          /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "PasswordFuerte123" -Q "SET STATISTICS TIME ON; SELECT COUNT(*) FROM dbo.Venta;"
