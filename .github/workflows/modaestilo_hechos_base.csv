@@ -1,0 +1,702 @@
+tipo_operacion,id_operacion,id_detalle,fecha,id_cliente,distrito,id_trabajador,cargo,id_articulo,articulo,categoria,cantidad,precio_unitario,importe,estado
+VENTA,1,1,2024-01-16,41,Surco,3,Asesor de ventas,9,Vestido de gala satinado,Vestidos,1,423.0,423.0,Pagada
+VENTA,1,2,2024-01-16,41,Surco,3,Asesor de ventas,24,Saco juvenil entallado,Blazers y sacos,1,275.0,275.0,Pagada
+VENTA,2,3,2024-01-18,11,Surco,6,Asesora de ventas,4,Terno ejecutivo,Ternos,1,540.0,540.0,Pagada
+VENTA,2,4,2024-01-18,11,Surco,6,Asesora de ventas,21,Blazer de lino,Blazers y sacos,1,295.0,295.0,Pagada
+VENTA,3,5,2024-01-20,52,Jesús María,4,Asesora de alquileres,37,Tacón de fiesta,Calzado,1,205.0,205.0,Pagada
+VENTA,4,6,2024-02-02,37,Jesús María,7,Asesor de alquileres,14,Vestido de coctel,Vestidos,1,355.0,355.0,Pagada
+VENTA,5,7,2024-02-02,28,San Isidro,7,Asesor de alquileres,42,Vestido infantil tul,Trajes infantiles,1,195.0,195.0,Pagada
+VENTA,5,8,2024-02-02,28,San Isidro,7,Asesor de alquileres,2,Terno clásico slim,Ternos,1,451.25,451.25,Pagada
+VENTA,6,9,2024-02-08,33,Pueblo Libre,2,Asesora de ventas,19,Camisa cuello italiano,Camisas,2,120.0,240.0,Pagada
+VENTA,6,10,2024-02-08,33,Pueblo Libre,2,Asesora de ventas,28,Pantalón sastre dama,Pantalones,1,171.0,171.0,Pagada
+VENTA,6,11,2024-02-08,33,Pueblo Libre,2,Asesora de ventas,35,Zapato Oxford cuero,Calzado,1,245.0,245.0,Pagada
+VENTA,7,12,2024-02-20,38,Breña,7,Asesor de alquileres,28,Pantalón sastre dama,Pantalones,1,171.0,171.0,Pagada
+VENTA,8,13,2024-02-25,3,Pueblo Libre,4,Asesora de alquileres,32,Cinturón formal,Accesorios,1,55.0,55.0,Pagada
+VENTA,8,14,2024-02-25,3,Pueblo Libre,4,Asesora de alquileres,35,Zapato Oxford cuero,Calzado,1,245.0,245.0,Pagada
+VENTA,9,15,2024-03-01,36,Cercado de Lima,6,Asesora de ventas,35,Zapato Oxford cuero,Calzado,1,245.0,245.0,Pagada
+VENTA,9,16,2024-03-01,36,Cercado de Lima,6,Asesora de ventas,7,Terno de ceremonia,Ternos,1,560.5,560.5,Pagada
+VENTA,9,17,2024-03-01,36,Cercado de Lima,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,490.0,490.0,Pagada
+VENTA,10,18,2024-03-07,46,San Miguel,3,Asesor de ventas,30,Corbata de seda,Accesorios,3,49.0,147.0,Pagada
+VENTA,11,19,2024-03-09,25,San Borja,7,Asesor de alquileres,27,Pantalón sastre dama,Pantalones,2,175.0,350.0,Pagada
+VENTA,12,20,2024-03-12,33,Pueblo Libre,4,Asesora de alquileres,3,Terno ejecutivo,Ternos,1,530.0,530.0,Pagada
+VENTA,12,21,2024-03-12,33,Pueblo Libre,4,Asesora de alquileres,28,Pantalón sastre dama,Pantalones,2,180.0,360.0,Pagada
+VENTA,13,22,2024-03-24,41,Surco,2,Asesora de ventas,23,Saco cruzado elegante,Blazers y sacos,1,340.0,340.0,Pagada
+VENTA,13,23,2024-03-24,41,Surco,2,Asesora de ventas,14,Vestido de coctel,Vestidos,1,337.25,337.25,Pagada
+VENTA,14,24,2024-03-27,46,San Miguel,7,Asesor de alquileres,18,Camisa Oxford premium,Camisas,3,104.5,313.5,Pagada
+VENTA,14,25,2024-03-27,46,San Miguel,7,Asesor de alquileres,4,Terno ejecutivo,Ternos,1,513.0,513.0,Pagada
+VENTA,15,26,2024-03-27,33,Pueblo Libre,7,Asesor de alquileres,1,Terno clásico slim,Ternos,1,460.0,460.0,Pagada
+VENTA,15,27,2024-03-27,33,Pueblo Libre,7,Asesor de alquileres,28,Pantalón sastre dama,Pantalones,1,171.0,171.0,Pagada
+VENTA,16,28,2024-03-29,15,Miraflores,4,Asesora de alquileres,17,Camisa Oxford premium,Camisas,1,105.0,105.0,Pagada
+VENTA,16,29,2024-03-29,15,Miraflores,4,Asesora de alquileres,36,Zapato Derby,Calzado,1,242.25,242.25,Pagada
+VENTA,17,30,2024-04-03,53,Breña,3,Asesor de ventas,35,Zapato Oxford cuero,Calzado,1,245.0,245.0,Pagada
+VENTA,18,31,2024-04-15,39,La Molina,4,Asesora de alquileres,13,Vestido de coctel,Vestidos,1,301.5,301.5,Pagada
+VENTA,19,32,2024-04-18,18,Pueblo Libre,4,Asesora de alquileres,45,Conjunto blazer y falda,Conjuntos femeninos,1,370.0,370.0,Pagada
+VENTA,20,33,2024-04-19,30,Miraflores,3,Asesor de ventas,9,Vestido de gala satinado,Vestidos,1,470.0,470.0,Pagada
+VENTA,20,34,2024-04-19,30,Miraflores,3,Asesor de ventas,2,Terno clásico slim,Ternos,1,427.5,427.5,Pagada
+VENTA,21,35,2024-04-24,42,Comas,6,Asesora de ventas,12,Vestido largo plisado,Vestidos,1,430.0,430.0,Pagada
+VENTA,21,36,2024-04-24,42,Comas,6,Asesora de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,395.0,395.0,Pagada
+VENTA,22,37,2024-04-25,47,Chorrillos,6,Asesora de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,370.0,370.0,Pagada
+VENTA,22,38,2024-04-25,47,Chorrillos,6,Asesora de ventas,27,Pantalón sastre dama,Pantalones,2,175.0,350.0,Pagada
+VENTA,23,39,2024-05-13,35,Lince,6,Asesora de ventas,37,Tacón de fiesta,Calzado,1,205.0,205.0,Pagada
+VENTA,23,40,2024-05-13,35,Lince,6,Asesora de ventas,42,Vestido infantil tul,Trajes infantiles,1,185.25,185.25,Pagada
+VENTA,23,41,2024-05-13,35,Lince,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,441.0,441.0,Pagada
+VENTA,24,42,2024-05-17,27,Comas,4,Asesora de alquileres,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,420.0,420.0,Pagada
+VENTA,24,43,2024-05-17,27,Comas,4,Asesora de alquileres,2,Terno clásico slim,Ternos,1,451.25,451.25,Pagada
+VENTA,25,44,2024-06-12,8,Breña,7,Asesor de alquileres,29,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,26,45,2024-06-18,9,La Molina,2,Asesora de ventas,30,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,26,46,2024-06-18,9,La Molina,2,Asesora de ventas,38,Tacón de fiesta,Calzado,1,210.0,210.0,Pagada
+VENTA,27,47,2024-06-21,3,Pueblo Libre,7,Asesor de alquileres,12,Vestido largo plisado,Vestidos,1,408.5,408.5,Pagada
+VENTA,27,48,2024-06-21,3,Pueblo Libre,7,Asesor de alquileres,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,375.25,375.25,Pagada
+VENTA,28,49,2024-07-12,30,Miraflores,2,Asesora de ventas,20,Camisa cuello italiano,Camisas,2,125.0,250.0,Pagada
+VENTA,29,50,2024-07-13,31,San Miguel,3,Asesor de ventas,24,Saco juvenil entallado,Blazers y sacos,1,275.0,275.0,Pagada
+VENTA,29,51,2024-07-13,31,San Miguel,3,Asesor de ventas,32,Cinturón formal,Accesorios,1,55.0,55.0,Pagada
+VENTA,30,52,2024-07-14,56,Surco,4,Asesora de alquileres,8,Terno de ceremonia,Ternos,1,655.5,655.5,Pagada
+VENTA,30,53,2024-07-14,56,Surco,4,Asesora de alquileres,42,Vestido infantil tul,Trajes infantiles,1,195.0,195.0,Pagada
+VENTA,31,54,2024-07-31,1,San Miguel,7,Asesor de alquileres,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,385.0,385.0,Pagada
+VENTA,31,55,2024-07-31,1,San Miguel,7,Asesor de alquileres,27,Pantalón sastre dama,Pantalones,1,175.0,175.0,Pagada
+VENTA,32,56,2024-08-03,64,Magdalena,7,Asesor de alquileres,1,Terno clásico slim,Ternos,1,460.0,460.0,Pagada
+VENTA,32,57,2024-08-03,64,Magdalena,7,Asesor de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,230.0,230.0,Pagada
+VENTA,33,58,2024-08-07,31,San Miguel,3,Asesor de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,230.0,230.0,Pagada
+VENTA,33,59,2024-08-07,31,San Miguel,3,Asesor de ventas,27,Pantalón sastre dama,Pantalones,1,175.0,175.0,Pagada
+VENTA,34,60,2024-08-09,10,San Borja,3,Asesor de ventas,25,Pantalón de vestir slim,Pantalones,1,137.75,137.75,Pagada
+VENTA,34,61,2024-08-09,10,San Borja,3,Asesor de ventas,29,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,34,62,2024-08-09,10,San Borja,3,Asesor de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,395.0,395.0,Pagada
+VENTA,35,63,2024-08-11,4,Magdalena,4,Asesora de alquileres,30,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,35,64,2024-08-11,4,Magdalena,4,Asesora de alquileres,32,Cinturón formal,Accesorios,1,55.0,55.0,Pagada
+VENTA,36,65,2024-08-23,25,San Borja,6,Asesora de ventas,27,Pantalón sastre dama,Pantalones,1,175.0,175.0,Pagada
+VENTA,36,66,2024-08-23,25,San Borja,6,Asesora de ventas,20,Camisa cuello italiano,Camisas,2,118.75,237.5,Pagada
+VENTA,37,67,2024-08-24,65,Lince,3,Asesor de ventas,18,Camisa Oxford premium,Camisas,1,104.5,104.5,Pagada
+VENTA,37,68,2024-08-24,65,Lince,3,Asesor de ventas,29,Corbata de seda,Accesorios,1,44.1,44.1,Pagada
+VENTA,38,69,2024-09-09,5,Lince,6,Asesora de ventas,25,Pantalón de vestir slim,Pantalones,1,145.0,145.0,Pagada
+VENTA,38,70,2024-09-09,5,Lince,6,Asesora de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,395.0,395.0,Pagada
+VENTA,38,71,2024-09-09,5,Lince,6,Asesora de ventas,33,Pañuelo de bolsillo,Accesorios,1,29.0,29.0,Pagada
+VENTA,39,72,2024-09-10,41,Surco,3,Asesor de ventas,24,Saco juvenil entallado,Blazers y sacos,1,275.0,275.0,Pagada
+VENTA,40,73,2024-09-18,22,Jesús María,7,Asesor de alquileres,27,Pantalón sastre dama,Pantalones,2,175.0,350.0,Pagada
+VENTA,40,74,2024-09-18,22,Jesús María,7,Asesor de alquileres,28,Pantalón sastre dama,Pantalones,1,171.0,171.0,Pagada
+VENTA,41,75,2024-09-22,32,Chorrillos,3,Asesor de ventas,30,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,41,76,2024-09-22,32,Chorrillos,3,Asesor de ventas,31,Pajarita satinada,Accesorios,2,37.05,74.1,Pagada
+VENTA,42,77,2024-09-22,67,Jesús María,4,Asesora de alquileres,5,Terno tres piezas,Ternos,1,640.0,640.0,Pagada
+VENTA,42,78,2024-09-22,67,Jesús María,4,Asesora de alquileres,31,Pajarita satinada,Accesorios,1,39.0,39.0,Pagada
+VENTA,43,79,2024-09-26,11,Surco,6,Asesora de ventas,29,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,43,80,2024-09-26,11,Surco,6,Asesora de ventas,14,Vestido de coctel,Vestidos,1,355.0,355.0,Pagada
+VENTA,44,81,2024-10-02,19,Magdalena,6,Asesora de ventas,17,Camisa Oxford premium,Camisas,1,99.75,99.75,Pagada
+VENTA,44,82,2024-10-02,19,Magdalena,6,Asesora de ventas,34,Set de gemelos,Accesorios,1,75.0,75.0,Pagada
+VENTA,45,83,2024-10-02,28,San Isidro,2,Asesora de ventas,3,Terno ejecutivo,Ternos,1,530.0,530.0,Pagada
+VENTA,45,84,2024-10-02,28,San Isidro,2,Asesora de ventas,8,Terno de ceremonia,Ternos,1,690.0,690.0,Pagada
+VENTA,46,85,2024-10-08,15,Miraflores,2,Asesora de ventas,2,Terno clásico slim,Ternos,1,451.25,451.25,Pagada
+VENTA,47,86,2024-10-12,5,Lince,3,Asesor de ventas,42,Vestido infantil tul,Trajes infantiles,1,185.25,185.25,Pagada
+VENTA,48,87,2024-10-12,50,Lince,2,Asesora de ventas,5,Terno tres piezas,Ternos,1,640.0,640.0,Pagada
+VENTA,49,88,2024-10-12,49,Magdalena,7,Asesor de alquileres,38,Tacón de fiesta,Calzado,1,210.0,210.0,Pagada
+VENTA,50,89,2024-10-13,58,San Isidro,3,Asesor de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,420.0,420.0,Pagada
+VENTA,51,90,2024-10-16,47,Chorrillos,7,Asesor de alquileres,27,Pantalón sastre dama,Pantalones,1,175.0,175.0,Pagada
+VENTA,52,91,2024-11-03,56,Surco,3,Asesor de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,395.0,395.0,Pagada
+VENTA,52,92,2024-11-03,56,Surco,3,Asesor de ventas,36,Zapato Derby,Calzado,1,229.5,229.5,Pagada
+VENTA,53,93,2024-11-09,34,Magdalena,3,Asesor de ventas,11,Vestido largo plisado,Vestidos,1,410.0,410.0,Pagada
+VENTA,53,94,2024-11-09,34,Magdalena,3,Asesor de ventas,26,Pantalón de vestir clásico,Pantalones,1,147.25,147.25,Pagada
+VENTA,53,95,2024-11-09,34,Magdalena,3,Asesor de ventas,4,Terno ejecutivo,Ternos,1,540.0,540.0,Pagada
+VENTA,54,96,2024-11-10,1,San Miguel,7,Asesor de alquileres,36,Zapato Derby,Calzado,1,255.0,255.0,Pagada
+VENTA,55,97,2024-11-16,72,Comas,2,Asesora de ventas,31,Pajarita satinada,Accesorios,1,37.05,37.05,Pagada
+VENTA,55,98,2024-11-16,72,Comas,2,Asesora de ventas,26,Pantalón de vestir clásico,Pantalones,1,139.5,139.5,Pagada
+VENTA,56,99,2024-11-20,39,La Molina,3,Asesor de ventas,17,Camisa Oxford premium,Camisas,1,105.0,105.0,Pagada
+VENTA,56,100,2024-11-20,39,La Molina,3,Asesor de ventas,25,Pantalón de vestir slim,Pantalones,1,145.0,145.0,Pagada
+VENTA,57,101,2024-11-24,46,San Miguel,7,Asesor de alquileres,25,Pantalón de vestir slim,Pantalones,1,137.75,137.75,Pagada
+VENTA,58,102,2024-11-27,52,Jesús María,7,Asesor de alquileres,5,Terno tres piezas,Ternos,1,576.0,576.0,Pagada
+VENTA,58,103,2024-11-27,52,Jesús María,7,Asesor de alquileres,27,Pantalón sastre dama,Pantalones,1,175.0,175.0,Pagada
+VENTA,58,104,2024-11-27,52,Jesús María,7,Asesor de alquileres,21,Blazer de lino,Blazers y sacos,1,280.25,280.25,Pagada
+VENTA,59,105,2024-12-11,24,La Molina,6,Asesora de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,420.0,420.0,Pagada
+VENTA,59,106,2024-12-11,24,La Molina,6,Asesora de ventas,37,Tacón de fiesta,Calzado,1,194.75,194.75,Pagada
+VENTA,60,107,2024-12-18,2,Chorrillos,6,Asesora de ventas,28,Pantalón sastre dama,Pantalones,1,180.0,180.0,Pagada
+VENTA,60,108,2024-12-18,2,Chorrillos,6,Asesora de ventas,36,Zapato Derby,Calzado,1,255.0,255.0,Pagada
+VENTA,60,109,2024-12-18,2,Chorrillos,6,Asesora de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,420.0,420.0,Pagada
+VENTA,61,110,2025-01-12,66,Cercado de Lima,4,Asesora de alquileres,19,Camisa cuello italiano,Camisas,1,120.0,120.0,Pagada
+VENTA,62,111,2025-01-21,54,La Molina,4,Asesora de alquileres,17,Camisa Oxford premium,Camisas,1,105.0,105.0,Pagada
+VENTA,62,112,2025-01-21,54,La Molina,4,Asesora de alquileres,9,Vestido de gala satinado,Vestidos,1,470.0,470.0,Pagada
+VENTA,63,113,2025-01-22,7,Jesús María,6,Asesora de ventas,30,Corbata de seda,Accesorios,3,46.55,139.65,Pagada
+VENTA,64,114,2025-01-23,33,Pueblo Libre,2,Asesora de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,230.0,230.0,Pagada
+VENTA,64,115,2025-01-23,33,Pueblo Libre,2,Asesora de ventas,37,Tacón de fiesta,Calzado,1,184.5,184.5,Pagada
+VENTA,65,116,2025-01-24,5,Lince,7,Asesor de alquileres,10,Vestido de gala satinado,Vestidos,1,465.5,465.5,Pagada
+VENTA,65,117,2025-01-24,5,Lince,7,Asesor de alquileres,34,Set de gemelos,Accesorios,2,75.0,150.0,Pagada
+VENTA,66,118,2025-01-26,5,Lince,7,Asesor de alquileres,45,Conjunto blazer y falda,Conjuntos femeninos,1,351.5,351.5,Pagada
+VENTA,66,119,2025-01-26,5,Lince,7,Asesor de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,230.0,230.0,Pagada
+VENTA,67,120,2025-01-30,65,Lince,3,Asesor de ventas,3,Terno ejecutivo,Ternos,1,530.0,530.0,Pagada
+VENTA,68,121,2025-02-04,69,La Molina,7,Asesor de alquileres,40,Terno infantil ceremonia,Trajes infantiles,1,245.0,245.0,Pagada
+VENTA,68,122,2025-02-04,69,La Molina,7,Asesor de alquileres,25,Pantalón de vestir slim,Pantalones,1,145.0,145.0,Pagada
+VENTA,69,123,2025-02-06,53,Breña,3,Asesor de ventas,8,Terno de ceremonia,Ternos,1,690.0,690.0,Pagada
+VENTA,69,124,2025-02-06,53,Breña,3,Asesor de ventas,32,Cinturón formal,Accesorios,1,55.0,55.0,Pagada
+VENTA,70,125,2025-02-09,76,San Miguel,6,Asesora de ventas,22,Blazer de lino,Blazers y sacos,1,294.5,294.5,Pagada
+VENTA,70,126,2025-02-09,76,San Miguel,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,490.0,490.0,Pagada
+VENTA,71,127,2025-02-09,43,San Isidro,6,Asesora de ventas,21,Blazer de lino,Blazers y sacos,1,295.0,295.0,Pagada
+VENTA,72,128,2025-02-12,40,San Borja,2,Asesora de ventas,3,Terno ejecutivo,Ternos,1,503.5,503.5,Pagada
+VENTA,73,129,2025-02-21,35,Lince,4,Asesora de alquileres,45,Conjunto blazer y falda,Conjuntos femeninos,1,370.0,370.0,Pagada
+VENTA,73,130,2025-02-21,35,Lince,4,Asesora de alquileres,11,Vestido largo plisado,Vestidos,1,410.0,410.0,Pagada
+VENTA,74,131,2025-02-22,66,Cercado de Lima,4,Asesora de alquileres,18,Camisa Oxford premium,Camisas,1,110.0,110.0,Pagada
+VENTA,74,132,2025-02-22,66,Cercado de Lima,4,Asesora de alquileres,36,Zapato Derby,Calzado,1,255.0,255.0,Pagada
+VENTA,75,133,2025-03-01,20,Lince,4,Asesora de alquileres,5,Terno tres piezas,Ternos,1,640.0,640.0,Pagada
+VENTA,75,134,2025-03-01,20,Lince,4,Asesora de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,207.0,207.0,Pagada
+VENTA,76,135,2025-03-05,25,San Borja,7,Asesor de alquileres,34,Set de gemelos,Accesorios,2,75.0,150.0,Pagada
+VENTA,77,136,2025-03-13,42,Comas,3,Asesor de ventas,21,Blazer de lino,Blazers y sacos,1,295.0,295.0,Pagada
+VENTA,77,137,2025-03-13,42,Comas,3,Asesor de ventas,37,Tacón de fiesta,Calzado,1,205.0,205.0,Pagada
+VENTA,77,138,2025-03-13,42,Comas,3,Asesor de ventas,13,Vestido de coctel,Vestidos,1,335.0,335.0,Pagada
+VENTA,78,139,2025-03-25,6,Cercado de Lima,7,Asesor de alquileres,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,385.0,385.0,Pagada
+VENTA,79,140,2025-03-25,67,Jesús María,2,Asesora de ventas,19,Camisa cuello italiano,Camisas,2,120.0,240.0,Pagada
+VENTA,80,141,2025-03-26,35,Lince,6,Asesora de ventas,41,Vestido infantil tul,Trajes infantiles,1,190.0,190.0,Pagada
+VENTA,80,142,2025-03-26,35,Lince,6,Asesora de ventas,7,Terno de ceremonia,Ternos,1,590.0,590.0,Pagada
+VENTA,81,143,2025-03-29,9,La Molina,2,Asesora de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,370.0,370.0,Pagada
+VENTA,82,144,2025-04-10,46,San Miguel,7,Asesor de alquileres,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,420.0,420.0,Pagada
+VENTA,82,145,2025-04-10,46,San Miguel,7,Asesor de alquileres,25,Pantalón de vestir slim,Pantalones,1,145.0,145.0,Pagada
+VENTA,83,146,2025-04-24,65,Lince,4,Asesora de alquileres,36,Zapato Derby,Calzado,1,255.0,255.0,Pagada
+VENTA,84,147,2025-04-24,12,Comas,3,Asesor de ventas,6,Terno tres piezas,Ternos,1,660.0,660.0,Pagada
+VENTA,85,148,2025-04-27,11,Surco,6,Asesora de ventas,20,Camisa cuello italiano,Camisas,2,125.0,250.0,Pagada
+VENTA,86,149,2025-04-29,58,San Isidro,7,Asesor de alquileres,38,Tacón de fiesta,Calzado,1,210.0,210.0,Pagada
+VENTA,86,150,2025-04-29,58,San Isidro,7,Asesor de alquileres,32,Cinturón formal,Accesorios,3,52.25,156.75,Pagada
+VENTA,86,151,2025-04-29,58,San Isidro,7,Asesor de alquileres,1,Terno clásico slim,Ternos,1,460.0,460.0,Pagada
+VENTA,87,152,2025-05-02,8,Breña,2,Asesora de ventas,1,Terno clásico slim,Ternos,1,460.0,460.0,Pagada
+VENTA,87,153,2025-05-02,8,Breña,2,Asesora de ventas,12,Vestido largo plisado,Vestidos,1,430.0,430.0,Pagada
+VENTA,88,154,2025-05-04,24,La Molina,6,Asesora de ventas,41,Vestido infantil tul,Trajes infantiles,1,190.0,190.0,Pagada
+VENTA,88,155,2025-05-04,24,La Molina,6,Asesora de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,351.5,351.5,Pagada
+VENTA,89,156,2025-05-21,26,Surco,7,Asesor de alquileres,3,Terno ejecutivo,Ternos,1,530.0,530.0,Pagada
+VENTA,89,157,2025-05-21,26,Surco,7,Asesor de alquileres,38,Tacón de fiesta,Calzado,1,210.0,210.0,Pagada
+VENTA,90,158,2025-05-23,6,Cercado de Lima,3,Asesor de ventas,18,Camisa Oxford premium,Camisas,1,110.0,110.0,Pagada
+VENTA,90,159,2025-05-23,6,Cercado de Lima,3,Asesor de ventas,8,Terno de ceremonia,Ternos,1,690.0,690.0,Pagada
+VENTA,91,160,2025-05-26,41,Surco,7,Asesor de alquileres,20,Camisa cuello italiano,Camisas,1,112.5,112.5,Pagada
+VENTA,92,161,2025-05-26,75,Miraflores,7,Asesor de alquileres,26,Pantalón de vestir clásico,Pantalones,2,155.0,310.0,Pagada
+VENTA,93,162,2025-06-03,40,San Borja,2,Asesora de ventas,23,Saco cruzado elegante,Blazers y sacos,1,323.0,323.0,Pagada
+VENTA,93,163,2025-06-03,40,San Borja,2,Asesora de ventas,27,Pantalón sastre dama,Pantalones,1,175.0,175.0,Pagada
+VENTA,94,164,2025-06-06,40,San Borja,2,Asesora de ventas,38,Tacón de fiesta,Calzado,1,210.0,210.0,Pagada
+VENTA,94,165,2025-06-06,40,San Borja,2,Asesora de ventas,19,Camisa cuello italiano,Camisas,2,120.0,240.0,Pagada
+VENTA,95,166,2025-06-10,50,Lince,6,Asesora de ventas,41,Vestido infantil tul,Trajes infantiles,1,190.0,190.0,Pagada
+VENTA,96,167,2025-06-13,45,Miraflores,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,490.0,490.0,Pagada
+VENTA,96,168,2025-06-13,45,Miraflores,6,Asesora de ventas,29,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,97,169,2025-06-13,19,Magdalena,6,Asesora de ventas,16,Vestido madrina,Vestidos,1,504.0,504.0,Pagada
+VENTA,97,170,2025-06-13,19,Magdalena,6,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,470.0,470.0,Pagada
+VENTA,98,171,2025-06-15,48,Pueblo Libre,6,Asesora de ventas,18,Camisa Oxford premium,Camisas,1,110.0,110.0,Pagada
+VENTA,98,172,2025-06-15,48,Pueblo Libre,6,Asesora de ventas,34,Set de gemelos,Accesorios,1,67.5,67.5,Pagada
+VENTA,99,173,2025-06-16,62,Chorrillos,7,Asesor de alquileres,11,Vestido largo plisado,Vestidos,1,389.5,389.5,Pagada
+VENTA,100,174,2025-06-18,42,Comas,7,Asesor de alquileres,7,Terno de ceremonia,Ternos,1,590.0,590.0,Pagada
+VENTA,100,175,2025-06-18,42,Comas,7,Asesor de alquileres,35,Zapato Oxford cuero,Calzado,1,232.75,232.75,Pagada
+VENTA,101,176,2025-06-20,75,Miraflores,4,Asesora de alquileres,27,Pantalón sastre dama,Pantalones,1,175.0,175.0,Pagada
+VENTA,101,177,2025-06-20,75,Miraflores,4,Asesora de alquileres,45,Conjunto blazer y falda,Conjuntos femeninos,1,351.5,351.5,Pagada
+VENTA,102,178,2025-06-21,16,San Miguel,7,Asesor de alquileres,37,Tacón de fiesta,Calzado,1,205.0,205.0,Pagada
+VENTA,103,179,2025-06-27,49,Magdalena,4,Asesora de alquileres,13,Vestido de coctel,Vestidos,1,318.25,318.25,Pagada
+VENTA,103,180,2025-06-27,49,Magdalena,4,Asesora de alquileres,23,Saco cruzado elegante,Blazers y sacos,1,340.0,340.0,Pagada
+VENTA,104,181,2025-07-16,63,Pueblo Libre,7,Asesor de alquileres,16,Vestido madrina,Vestidos,1,560.0,560.0,Pagada
+VENTA,104,182,2025-07-16,63,Pueblo Libre,7,Asesor de alquileres,1,Terno clásico slim,Ternos,1,460.0,460.0,Pagada
+VENTA,105,183,2025-07-18,28,San Isidro,4,Asesora de alquileres,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,395.0,395.0,Pagada
+VENTA,105,184,2025-07-18,28,San Isidro,4,Asesora de alquileres,38,Tacón de fiesta,Calzado,1,210.0,210.0,Pagada
+VENTA,106,185,2025-07-19,24,La Molina,7,Asesor de alquileres,24,Saco juvenil entallado,Blazers y sacos,1,275.0,275.0,Pagada
+VENTA,107,186,2025-07-24,48,Pueblo Libre,2,Asesora de ventas,17,Camisa Oxford premium,Camisas,1,105.0,105.0,Pagada
+VENTA,107,187,2025-07-24,48,Pueblo Libre,2,Asesora de ventas,40,Terno infantil ceremonia,Trajes infantiles,1,245.0,245.0,Pagada
+VENTA,108,188,2025-07-31,62,Chorrillos,4,Asesora de alquileres,30,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,108,189,2025-07-31,62,Chorrillos,4,Asesora de alquileres,6,Terno tres piezas,Ternos,1,660.0,660.0,Pagada
+VENTA,109,190,2025-08-02,44,Los Olivos,7,Asesor de alquileres,19,Camisa cuello italiano,Camisas,2,120.0,240.0,Pagada
+VENTA,110,191,2025-08-12,34,Magdalena,6,Asesora de ventas,29,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,111,192,2025-08-13,17,Chorrillos,4,Asesora de alquileres,30,Corbata de seda,Accesorios,2,49.0,98.0,Pagada
+VENTA,111,193,2025-08-13,17,Chorrillos,4,Asesora de alquileres,25,Pantalón de vestir slim,Pantalones,1,145.0,145.0,Pagada
+VENTA,112,194,2025-08-16,22,Jesús María,6,Asesora de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,370.0,370.0,Pagada
+VENTA,113,195,2025-08-20,46,San Miguel,6,Asesora de ventas,5,Terno tres piezas,Ternos,1,640.0,640.0,Pagada
+VENTA,114,196,2025-08-23,1,San Miguel,4,Asesora de alquileres,36,Zapato Derby,Calzado,1,255.0,255.0,Pagada
+VENTA,114,197,2025-08-23,1,San Miguel,4,Asesora de alquileres,45,Conjunto blazer y falda,Conjuntos femeninos,1,351.5,351.5,Pagada
+VENTA,115,198,2025-09-04,11,Surco,3,Asesor de ventas,22,Blazer de lino,Blazers y sacos,1,310.0,310.0,Pagada
+VENTA,115,199,2025-09-04,11,Surco,3,Asesor de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,420.0,420.0,Pagada
+VENTA,115,200,2025-09-04,11,Surco,3,Asesor de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,395.0,395.0,Pagada
+VENTA,116,201,2025-09-09,16,San Miguel,4,Asesora de alquileres,23,Saco cruzado elegante,Blazers y sacos,1,340.0,340.0,Pagada
+VENTA,117,202,2025-10-01,72,Comas,7,Asesor de alquileres,19,Camisa cuello italiano,Camisas,1,120.0,120.0,Pagada
+VENTA,117,203,2025-10-01,72,Comas,7,Asesor de alquileres,22,Blazer de lino,Blazers y sacos,1,294.5,294.5,Pagada
+VENTA,118,204,2025-10-04,48,Pueblo Libre,2,Asesora de ventas,31,Pajarita satinada,Accesorios,1,39.0,39.0,Pagada
+VENTA,119,205,2025-10-09,46,San Miguel,4,Asesora de alquileres,10,Vestido de gala satinado,Vestidos,1,490.0,490.0,Pagada
+VENTA,120,206,2025-10-09,36,Cercado de Lima,4,Asesora de alquileres,45,Conjunto blazer y falda,Conjuntos femeninos,1,370.0,370.0,Pagada
+VENTA,120,207,2025-10-09,36,Cercado de Lima,4,Asesora de alquileres,2,Terno clásico slim,Ternos,1,475.0,475.0,Pagada
+VENTA,121,208,2025-10-11,34,Magdalena,3,Asesor de ventas,31,Pajarita satinada,Accesorios,2,37.05,74.1,Pagada
+VENTA,121,209,2025-10-11,34,Magdalena,3,Asesor de ventas,2,Terno clásico slim,Ternos,1,475.0,475.0,Pagada
+VENTA,121,210,2025-10-11,34,Magdalena,3,Asesor de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,230.0,230.0,Pagada
+VENTA,122,211,2025-10-16,63,Pueblo Libre,2,Asesora de ventas,42,Vestido infantil tul,Trajes infantiles,1,185.25,185.25,Pagada
+VENTA,122,212,2025-10-16,63,Pueblo Libre,2,Asesora de ventas,29,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,123,213,2025-10-30,32,Chorrillos,2,Asesora de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,395.0,395.0,Pagada
+VENTA,124,214,2025-10-31,11,Surco,3,Asesor de ventas,34,Set de gemelos,Accesorios,1,67.5,67.5,Pagada
+VENTA,125,215,2025-11-01,26,Surco,4,Asesora de alquileres,35,Zapato Oxford cuero,Calzado,1,232.75,232.75,Pagada
+VENTA,126,216,2025-11-15,72,Comas,6,Asesora de ventas,4,Terno ejecutivo,Ternos,1,540.0,540.0,Pagada
+VENTA,126,217,2025-11-15,72,Comas,6,Asesora de ventas,30,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,127,218,2025-11-22,6,Cercado de Lima,3,Asesor de ventas,18,Camisa Oxford premium,Camisas,1,110.0,110.0,Pagada
+VENTA,127,219,2025-11-22,6,Cercado de Lima,3,Asesor de ventas,37,Tacón de fiesta,Calzado,1,194.75,194.75,Pagada
+VENTA,128,220,2025-12-05,59,Los Olivos,6,Asesora de ventas,2,Terno clásico slim,Ternos,1,475.0,475.0,Pagada
+VENTA,129,221,2025-12-17,19,Magdalena,2,Asesora de ventas,31,Pajarita satinada,Accesorios,1,39.0,39.0,Pagada
+VENTA,129,222,2025-12-17,19,Magdalena,2,Asesora de ventas,36,Zapato Derby,Calzado,1,255.0,255.0,Pagada
+VENTA,130,223,2025-12-17,79,Magdalena,4,Asesora de alquileres,34,Set de gemelos,Accesorios,2,75.0,150.0,Pagada
+VENTA,130,224,2025-12-17,79,Magdalena,4,Asesora de alquileres,7,Terno de ceremonia,Ternos,1,560.5,560.5,Pagada
+VENTA,131,225,2026-01-10,66,Cercado de Lima,2,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,470.0,470.0,Pagada
+VENTA,131,226,2026-01-10,66,Cercado de Lima,2,Asesora de ventas,35,Zapato Oxford cuero,Calzado,1,245.0,245.0,Pagada
+VENTA,132,227,2026-01-14,11,Surco,6,Asesora de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,420.0,420.0,Pagada
+VENTA,132,228,2026-01-14,11,Surco,6,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,470.0,470.0,Pagada
+VENTA,133,229,2026-01-16,62,Chorrillos,3,Asesor de ventas,7,Terno de ceremonia,Ternos,1,590.0,590.0,Pagada
+VENTA,134,230,2026-01-23,73,San Isidro,2,Asesora de ventas,30,Corbata de seda,Accesorios,1,46.55,46.55,Pagada
+VENTA,134,231,2026-01-23,73,San Isidro,2,Asesora de ventas,25,Pantalón de vestir slim,Pantalones,1,145.0,145.0,Pagada
+VENTA,135,232,2026-01-29,53,Breña,2,Asesora de ventas,18,Camisa Oxford premium,Camisas,1,110.0,110.0,Pagada
+VENTA,136,233,2026-02-03,49,Magdalena,6,Asesora de ventas,18,Camisa Oxford premium,Camisas,2,99.0,198.0,Pagada
+VENTA,136,234,2026-02-03,49,Magdalena,6,Asesora de ventas,32,Cinturón formal,Accesorios,2,55.0,110.0,Pagada
+VENTA,137,235,2026-02-10,63,Pueblo Libre,2,Asesora de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,370.0,370.0,Pagada
+VENTA,137,236,2026-02-10,63,Pueblo Libre,2,Asesora de ventas,2,Terno clásico slim,Ternos,1,475.0,475.0,Pagada
+VENTA,138,237,2026-02-16,32,Chorrillos,2,Asesora de ventas,34,Set de gemelos,Accesorios,1,75.0,75.0,Pagada
+VENTA,138,238,2026-02-16,32,Chorrillos,2,Asesora de ventas,38,Tacón de fiesta,Calzado,1,189.0,189.0,Pagada
+VENTA,139,239,2026-02-20,16,San Miguel,3,Asesor de ventas,21,Blazer de lino,Blazers y sacos,1,295.0,295.0,Pagada
+VENTA,139,240,2026-02-20,16,San Miguel,3,Asesor de ventas,7,Terno de ceremonia,Ternos,1,560.5,560.5,Pagada
+VENTA,140,241,2026-03-03,69,La Molina,4,Asesora de alquileres,38,Tacón de fiesta,Calzado,1,210.0,210.0,Pagada
+VENTA,140,242,2026-03-03,69,La Molina,4,Asesora de alquileres,17,Camisa Oxford premium,Camisas,1,99.75,99.75,Pagada
+VENTA,140,243,2026-03-03,69,La Molina,4,Asesora de alquileres,10,Vestido de gala satinado,Vestidos,1,490.0,490.0,Pagada
+VENTA,141,244,2026-03-06,82,Jesús María,7,Asesor de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,207.0,207.0,Pagada
+VENTA,141,245,2026-03-06,82,Jesús María,7,Asesor de alquileres,27,Pantalón sastre dama,Pantalones,1,157.5,157.5,Pagada
+VENTA,142,246,2026-03-12,71,Surco,3,Asesor de ventas,34,Set de gemelos,Accesorios,1,75.0,75.0,Pagada
+VENTA,142,247,2026-03-12,71,Surco,3,Asesor de ventas,24,Saco juvenil entallado,Blazers y sacos,1,275.0,275.0,Pagada
+VENTA,142,248,2026-03-12,71,Surco,3,Asesor de ventas,1,Terno clásico slim,Ternos,1,460.0,460.0,Pagada
+VENTA,143,249,2026-03-17,28,San Isidro,2,Asesora de ventas,14,Vestido de coctel,Vestidos,1,355.0,355.0,Pagada
+VENTA,144,250,2026-03-28,87,Comas,2,Asesora de ventas,21,Blazer de lino,Blazers y sacos,1,295.0,295.0,Pagada
+VENTA,144,251,2026-03-28,87,Comas,2,Asesora de ventas,31,Pajarita satinada,Accesorios,2,37.05,74.1,Pagada
+VENTA,145,252,2026-04-03,61,San Miguel,3,Asesor de ventas,14,Vestido de coctel,Vestidos,1,355.0,355.0,Pagada
+VENTA,145,253,2026-04-03,61,San Miguel,3,Asesor de ventas,33,Pañuelo de bolsillo,Accesorios,1,27.55,27.55,Pagada
+VENTA,145,254,2026-04-03,61,San Miguel,3,Asesor de ventas,25,Pantalón de vestir slim,Pantalones,1,130.5,130.5,Pagada
+VENTA,146,255,2026-04-06,47,Chorrillos,4,Asesora de alquileres,37,Tacón de fiesta,Calzado,1,194.75,194.75,Pagada
+VENTA,146,256,2026-04-06,47,Chorrillos,4,Asesora de alquileres,38,Tacón de fiesta,Calzado,1,199.5,199.5,Pagada
+VENTA,147,257,2026-04-12,48,Pueblo Libre,7,Asesor de alquileres,41,Vestido infantil tul,Trajes infantiles,1,180.5,180.5,Pagada
+VENTA,147,258,2026-04-12,48,Pueblo Libre,7,Asesor de alquileres,24,Saco juvenil entallado,Blazers y sacos,1,261.25,261.25,Pagada
+VENTA,148,259,2026-04-12,71,Surco,6,Asesora de ventas,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,385.0,385.0,Pagada
+VENTA,148,260,2026-04-12,71,Surco,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,465.5,465.5,Pagada
+VENTA,148,261,2026-04-12,71,Surco,6,Asesora de ventas,8,Terno de ceremonia,Ternos,1,655.5,655.5,Pagada
+VENTA,149,262,2026-04-23,55,San Borja,6,Asesora de ventas,28,Pantalón sastre dama,Pantalones,2,180.0,360.0,Pagada
+VENTA,149,263,2026-04-23,55,San Borja,6,Asesora de ventas,35,Zapato Oxford cuero,Calzado,1,245.0,245.0,Pagada
+VENTA,150,264,2026-05-04,3,Pueblo Libre,7,Asesor de alquileres,25,Pantalón de vestir slim,Pantalones,1,145.0,145.0,Pagada
+VENTA,150,265,2026-05-04,3,Pueblo Libre,7,Asesor de alquileres,35,Zapato Oxford cuero,Calzado,1,245.0,245.0,Pagada
+VENTA,151,266,2026-05-04,8,Breña,2,Asesora de ventas,19,Camisa cuello italiano,Camisas,1,120.0,120.0,Pagada
+VENTA,151,267,2026-05-04,8,Breña,2,Asesora de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,420.0,420.0,Pagada
+VENTA,152,268,2026-05-06,18,Pueblo Libre,3,Asesor de ventas,20,Camisa cuello italiano,Camisas,1,112.5,112.5,Pagada
+VENTA,152,269,2026-05-06,18,Pueblo Libre,3,Asesor de ventas,14,Vestido de coctel,Vestidos,1,355.0,355.0,Pagada
+VENTA,153,270,2026-05-13,34,Magdalena,2,Asesora de ventas,38,Tacón de fiesta,Calzado,1,199.5,199.5,Pagada
+VENTA,153,271,2026-05-13,34,Magdalena,2,Asesora de ventas,36,Zapato Derby,Calzado,1,255.0,255.0,Pagada
+VENTA,154,272,2026-05-27,76,San Miguel,3,Asesor de ventas,2,Terno clásico slim,Ternos,1,451.25,451.25,Pagada
+VENTA,155,273,2026-06-03,9,La Molina,4,Asesora de alquileres,35,Zapato Oxford cuero,Calzado,1,245.0,245.0,Pagada
+VENTA,155,274,2026-06-03,9,La Molina,4,Asesora de alquileres,14,Vestido de coctel,Vestidos,1,355.0,355.0,Pagada
+VENTA,156,275,2026-06-12,66,Cercado de Lima,4,Asesora de alquileres,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,375.25,375.25,Pagada
+VENTA,157,276,2026-06-15,2,Chorrillos,2,Asesora de ventas,34,Set de gemelos,Accesorios,1,71.25,71.25,Pagada
+VENTA,157,277,2026-06-15,2,Chorrillos,2,Asesora de ventas,3,Terno ejecutivo,Ternos,1,530.0,530.0,Pagada
+VENTA,158,278,2026-06-16,53,Breña,3,Asesor de ventas,31,Pajarita satinada,Accesorios,1,39.0,39.0,Pagada
+VENTA,159,279,2026-06-19,36,Cercado de Lima,3,Asesor de ventas,27,Pantalón sastre dama,Pantalones,1,166.25,166.25,Pagada
+VENTA,160,280,2026-06-22,40,San Borja,3,Asesor de ventas,34,Set de gemelos,Accesorios,2,75.0,150.0,Pagada
+VENTA,161,281,2026-06-25,83,Breña,3,Asesor de ventas,32,Cinturón formal,Accesorios,3,55.0,165.0,Pagada
+VENTA,161,282,2026-06-25,83,Breña,3,Asesor de ventas,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,385.0,385.0,Pagada
+VENTA,162,283,2026-07-01,82,Jesús María,6,Asesora de ventas,4,Terno ejecutivo,Ternos,1,540.0,540.0,Pagada
+VENTA,162,284,2026-07-01,82,Jesús María,6,Asesora de ventas,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,385.0,385.0,Pagada
+VENTA,163,285,2026-07-02,2,Chorrillos,4,Asesora de alquileres,19,Camisa cuello italiano,Camisas,2,120.0,240.0,Pagada
+VENTA,164,286,2026-07-06,44,Los Olivos,3,Asesor de ventas,11,Vestido largo plisado,Vestidos,1,410.0,410.0,Pagada
+VENTA,165,287,2026-07-25,27,Comas,7,Asesor de alquileres,3,Terno ejecutivo,Ternos,1,530.0,530.0,Pagada
+VENTA,165,288,2026-07-25,27,Comas,7,Asesor de alquileres,1,Terno clásico slim,Ternos,1,460.0,460.0,Pagada
+VENTA,166,289,2026-07-29,87,Comas,4,Asesora de alquileres,7,Terno de ceremonia,Ternos,1,560.5,560.5,Pagada
+VENTA,167,290,2026-08-02,19,Magdalena,4,Asesora de alquileres,8,Terno de ceremonia,Ternos,1,690.0,690.0,Pagada
+VENTA,168,291,2026-08-13,72,Comas,3,Asesor de ventas,31,Pajarita satinada,Accesorios,1,39.0,39.0,Pagada
+VENTA,168,292,2026-08-13,72,Comas,3,Asesor de ventas,27,Pantalón sastre dama,Pantalones,2,175.0,350.0,Pagada
+VENTA,168,293,2026-08-13,72,Comas,3,Asesor de ventas,30,Corbata de seda,Accesorios,1,49.0,49.0,Pagada
+VENTA,169,294,2026-08-16,8,Breña,3,Asesor de ventas,38,Tacón de fiesta,Calzado,1,210.0,210.0,Pagada
+VENTA,169,295,2026-08-16,8,Breña,3,Asesor de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,230.0,230.0,Pagada
+VENTA,170,296,2026-08-18,8,Breña,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,465.5,465.5,Pagada
+VENTA,170,297,2026-08-18,8,Breña,6,Asesora de ventas,29,Corbata de seda,Accesorios,2,49.0,98.0,Pagada
+VENTA,171,298,2026-08-30,69,La Molina,3,Asesor de ventas,21,Blazer de lino,Blazers y sacos,1,265.5,265.5,Pagada
+VENTA,171,299,2026-08-30,69,La Molina,3,Asesor de ventas,19,Camisa cuello italiano,Camisas,1,120.0,120.0,Pagada
+VENTA,172,300,2026-08-30,61,San Miguel,4,Asesora de alquileres,24,Saco juvenil entallado,Blazers y sacos,1,247.5,247.5,Pagada
+VENTA,172,301,2026-08-30,61,San Miguel,4,Asesora de alquileres,34,Set de gemelos,Accesorios,1,71.25,71.25,Pagada
+VENTA,172,302,2026-08-30,61,San Miguel,4,Asesora de alquileres,26,Pantalón de vestir clásico,Pantalones,1,155.0,155.0,Pagada
+VENTA,173,303,2026-09-01,14,Los Olivos,3,Asesor de ventas,27,Pantalón sastre dama,Pantalones,1,166.25,166.25,Pagada
+VENTA,174,304,2026-09-01,10,San Borja,3,Asesor de ventas,27,Pantalón sastre dama,Pantalones,1,175.0,175.0,Pagada
+VENTA,174,305,2026-09-01,10,San Borja,3,Asesor de ventas,36,Zapato Derby,Calzado,1,255.0,255.0,Pagada
+VENTA,175,306,2026-09-13,7,Jesús María,7,Asesor de alquileres,4,Terno ejecutivo,Ternos,1,540.0,540.0,Pagada
+VENTA,176,307,2026-09-18,62,Chorrillos,7,Asesor de alquileres,25,Pantalón de vestir slim,Pantalones,2,130.5,261.0,Pagada
+VENTA,177,308,2026-09-18,66,Cercado de Lima,2,Asesora de ventas,38,Tacón de fiesta,Calzado,1,210.0,210.0,Pagada
+VENTA,178,309,2026-09-24,20,Lince,7,Asesor de alquileres,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,395.0,395.0,Pagada
+VENTA,178,310,2026-09-24,20,Lince,7,Asesor de alquileres,14,Vestido de coctel,Vestidos,1,355.0,355.0,Pagada
+VENTA,179,311,2026-09-25,61,San Miguel,4,Asesora de alquileres,34,Set de gemelos,Accesorios,1,75.0,75.0,Pagada
+VENTA,180,312,2026-09-29,89,Los Olivos,6,Asesora de ventas,21,Blazer de lino,Blazers y sacos,1,295.0,295.0,Parcial
+VENTA,180,313,2026-09-29,89,Los Olivos,6,Asesora de ventas,35,Zapato Oxford cuero,Calzado,1,245.0,245.0,Parcial
+VENTA,181,314,2026-10-03,60,Miraflores,3,Asesor de ventas,5,Terno tres piezas,Ternos,1,608.0,608.0,Pagada
+VENTA,181,315,2026-10-03,60,Miraflores,3,Asesor de ventas,34,Set de gemelos,Accesorios,1,67.5,67.5,Pagada
+VENTA,181,316,2026-10-03,60,Miraflores,3,Asesor de ventas,37,Tacón de fiesta,Calzado,1,205.0,205.0,Pagada
+VENTA,182,317,2026-10-04,3,Pueblo Libre,2,Asesora de ventas,8,Terno de ceremonia,Ternos,1,690.0,690.0,Pagada
+VENTA,182,318,2026-10-04,3,Pueblo Libre,2,Asesora de ventas,32,Cinturón formal,Accesorios,1,55.0,55.0,Pagada
+VENTA,182,319,2026-10-04,3,Pueblo Libre,2,Asesora de ventas,24,Saco juvenil entallado,Blazers y sacos,1,275.0,275.0,Pagada
+VENTA,183,320,2026-10-04,53,Breña,6,Asesora de ventas,24,Saco juvenil entallado,Blazers y sacos,1,261.25,261.25,Pagada
+VENTA,184,321,2026-10-06,85,San Borja,4,Asesora de alquileres,33,Pañuelo de bolsillo,Accesorios,1,29.0,29.0,Parcial
+VENTA,185,322,2026-10-13,50,Lince,3,Asesor de ventas,16,Vestido madrina,Vestidos,1,532.0,532.0,Pagada
+VENTA,185,323,2026-10-13,50,Lince,3,Asesor de ventas,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,385.0,385.0,Pagada
+ALQUILER,1,1,2024-01-08,53,Breña,3,Asesor de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,1,2,2024-01-08,53,Breña,3,Asesor de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,2,3,2024-01-18,29,Los Olivos,7,Asesor de alquileres,40,Terno infantil ceremonia,Trajes infantiles,1,66.5,66.5,Devuelto
+ALQUILER,3,4,2024-01-19,52,Jesús María,6,Asesora de ventas,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,4,5,2024-01-26,26,Surco,3,Asesor de ventas,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,5,6,2024-01-26,4,Magdalena,2,Asesora de ventas,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,6,7,2024-01-28,26,Surco,2,Asesora de ventas,24,Saco juvenil entallado,Blazers y sacos,1,70.0,70.0,Devuelto
+ALQUILER,6,8,2024-01-28,26,Surco,2,Asesora de ventas,22,Blazer de lino,Blazers y sacos,1,72.0,72.0,Devuelto
+ALQUILER,7,9,2024-02-01,42,Comas,6,Asesora de ventas,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,7,10,2024-02-01,42,Comas,6,Asesora de ventas,23,Saco cruzado elegante,Blazers y sacos,1,90.0,90.0,Devuelto
+ALQUILER,8,11,2024-02-02,19,Magdalena,4,Asesora de alquileres,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,9,12,2024-02-12,33,Pueblo Libre,6,Asesora de ventas,42,Vestido infantil tul,Trajes infantiles,1,52.25,52.25,Devuelto
+ALQUILER,10,13,2024-02-14,26,Surco,7,Asesor de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,58.5,58.5,Devuelto
+ALQUILER,11,14,2024-02-17,52,Jesús María,7,Asesor de alquileres,22,Blazer de lino,Blazers y sacos,1,80.0,80.0,Devuelto
+ALQUILER,12,15,2024-02-18,18,Pueblo Libre,7,Asesor de alquileres,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,12,16,2024-02-18,18,Pueblo Libre,7,Asesor de alquileres,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,13,17,2024-03-05,19,Magdalena,3,Asesor de ventas,6,Terno tres piezas,Ternos,1,190.0,190.0,Devuelto
+ALQUILER,13,18,2024-03-05,19,Magdalena,3,Asesor de ventas,40,Terno infantil ceremonia,Trajes infantiles,1,70.0,70.0,Devuelto
+ALQUILER,14,19,2024-03-17,21,Cercado de Lima,2,Asesora de ventas,24,Saco juvenil entallado,Blazers y sacos,1,70.0,70.0,Devuelto
+ALQUILER,15,20,2024-03-23,26,Surco,6,Asesora de ventas,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,15,21,2024-03-23,26,Surco,6,Asesora de ventas,35,Zapato Oxford cuero,Calzado,1,60.0,60.0,Devuelto
+ALQUILER,16,22,2024-03-26,2,Chorrillos,6,Asesora de ventas,23,Saco cruzado elegante,Blazers y sacos,1,90.0,90.0,Devuelto
+ALQUILER,17,23,2024-03-28,13,San Isidro,2,Asesora de ventas,8,Terno de ceremonia,Ternos,1,184.5,184.5,Devuelto
+ALQUILER,18,24,2024-04-03,13,San Isidro,4,Asesora de alquileres,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,18,25,2024-04-03,13,San Isidro,4,Asesora de alquileres,14,Vestido de coctel,Vestidos,1,115.0,115.0,Devuelto
+ALQUILER,19,26,2024-04-04,26,Surco,6,Asesora de ventas,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,20,27,2024-04-04,32,Chorrillos,2,Asesora de ventas,37,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,21,28,2024-04-13,8,Breña,7,Asesor de alquileres,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,22,29,2024-04-22,43,San Isidro,2,Asesora de ventas,41,Vestido infantil tul,Trajes infantiles,1,52.25,52.25,Devuelto
+ALQUILER,22,30,2024-04-22,43,San Isidro,2,Asesora de ventas,30,Corbata de seda,Accesorios,1,10.0,10.0,Devuelto
+ALQUILER,23,31,2024-04-28,64,Magdalena,7,Asesor de alquileres,41,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,23,32,2024-04-28,64,Magdalena,7,Asesor de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,24,33,2024-05-01,64,Magdalena,4,Asesora de alquileres,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,25,34,2024-05-05,11,Surco,2,Asesora de ventas,2,Terno clásico slim,Ternos,1,112.5,112.5,Devuelto
+ALQUILER,25,35,2024-05-05,11,Surco,2,Asesora de ventas,37,Tacón de fiesta,Calzado,1,52.25,52.25,Devuelto
+ALQUILER,25,36,2024-05-05,11,Surco,2,Asesora de ventas,6,Terno tres piezas,Ternos,1,180.5,180.5,Devuelto
+ALQUILER,26,37,2024-05-12,26,Surco,4,Asesora de alquileres,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,26,38,2024-05-12,26,Surco,4,Asesora de alquileres,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,27,39,2024-05-17,53,Breña,7,Asesor de alquileres,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,28,40,2024-05-18,32,Chorrillos,4,Asesora de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,28,41,2024-05-18,32,Chorrillos,4,Asesora de alquileres,5,Terno tres piezas,Ternos,1,175.75,175.75,Devuelto
+ALQUILER,29,42,2024-05-29,28,San Isidro,6,Asesora de ventas,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,30,43,2024-05-29,50,Lince,2,Asesora de ventas,6,Terno tres piezas,Ternos,1,190.0,190.0,Devuelto
+ALQUILER,31,44,2024-06-02,10,San Borja,2,Asesora de ventas,42,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,32,45,2024-06-03,8,Breña,6,Asesora de ventas,7,Terno de ceremonia,Ternos,1,175.0,175.0,Devuelto
+ALQUILER,33,46,2024-06-05,25,San Borja,6,Asesora de ventas,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,34,47,2024-06-08,51,Cercado de Lima,4,Asesora de alquileres,13,Vestido de coctel,Vestidos,1,99.75,99.75,Devuelto
+ALQUILER,34,48,2024-06-08,51,Cercado de Lima,4,Asesora de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,35,49,2024-06-14,1,San Miguel,4,Asesora de alquileres,23,Saco cruzado elegante,Blazers y sacos,1,85.5,85.5,Devuelto
+ALQUILER,36,50,2024-06-14,63,Pueblo Libre,7,Asesor de alquileres,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,36,51,2024-06-14,63,Pueblo Libre,7,Asesor de alquileres,24,Saco juvenil entallado,Blazers y sacos,1,70.0,70.0,Devuelto
+ALQUILER,37,52,2024-06-23,52,Jesús María,4,Asesora de alquileres,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,37,53,2024-06-23,52,Jesús María,4,Asesora de alquileres,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,38,54,2024-07-03,8,Breña,2,Asesora de ventas,40,Terno infantil ceremonia,Trajes infantiles,1,70.0,70.0,Devuelto
+ALQUILER,39,55,2024-07-04,14,Los Olivos,3,Asesor de ventas,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,40,56,2024-07-14,64,Magdalena,4,Asesora de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,40,57,2024-07-14,64,Magdalena,4,Asesora de alquileres,6,Terno tres piezas,Ternos,1,190.0,190.0,Devuelto
+ALQUILER,41,58,2024-07-17,71,Surco,7,Asesor de alquileres,37,Tacón de fiesta,Calzado,1,52.25,52.25,Devuelto
+ALQUILER,42,59,2024-07-19,9,La Molina,6,Asesora de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,42,60,2024-07-19,9,La Molina,6,Asesora de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,43,61,2024-07-25,13,San Isidro,6,Asesora de ventas,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,43,62,2024-07-25,13,San Isidro,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,44,63,2024-07-29,73,San Isidro,7,Asesor de alquileres,7,Terno de ceremonia,Ternos,1,157.5,157.5,Devuelto
+ALQUILER,44,64,2024-07-29,73,San Isidro,7,Asesor de alquileres,28,Pantalón sastre dama,Pantalones,1,48.0,48.0,Devuelto
+ALQUILER,45,65,2024-07-30,8,Breña,6,Asesora de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,110.0,110.0,Devuelto
+ALQUILER,46,66,2024-08-10,39,La Molina,3,Asesor de ventas,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,47,67,2024-08-12,13,San Isidro,6,Asesora de ventas,5,Terno tres piezas,Ternos,1,185.0,185.0,Devuelto
+ALQUILER,48,68,2024-08-23,58,San Isidro,4,Asesora de alquileres,14,Vestido de coctel,Vestidos,1,109.25,109.25,Devuelto
+ALQUILER,48,69,2024-08-23,58,San Isidro,4,Asesora de alquileres,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,49,70,2024-08-31,3,Pueblo Libre,7,Asesor de alquileres,6,Terno tres piezas,Ternos,1,190.0,190.0,Devuelto
+ALQUILER,50,71,2024-09-15,20,Lince,7,Asesor de alquileres,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,50,72,2024-09-15,20,Lince,7,Asesor de alquileres,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,115.0,115.0,Devuelto
+ALQUILER,51,73,2024-09-20,4,Magdalena,6,Asesora de ventas,14,Vestido de coctel,Vestidos,1,115.0,115.0,Devuelto
+ALQUILER,52,74,2024-09-22,40,San Borja,6,Asesora de ventas,12,Vestido largo plisado,Vestidos,1,133.0,133.0,Devuelto
+ALQUILER,52,75,2024-09-22,40,San Borja,6,Asesora de ventas,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,53,76,2024-09-23,58,San Isidro,7,Asesor de alquileres,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,53,77,2024-09-23,58,San Isidro,7,Asesor de alquileres,37,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,54,78,2024-09-24,13,San Isidro,4,Asesora de alquileres,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,55,79,2024-09-29,41,Surco,4,Asesora de alquileres,7,Terno de ceremonia,Ternos,1,175.0,175.0,Devuelto
+ALQUILER,55,80,2024-09-29,41,Surco,4,Asesora de alquileres,14,Vestido de coctel,Vestidos,1,115.0,115.0,Devuelto
+ALQUILER,55,81,2024-09-29,41,Surco,4,Asesora de alquileres,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,125.0,125.0,Devuelto
+ALQUILER,56,82,2024-09-29,40,San Borja,7,Asesor de alquileres,5,Terno tres piezas,Ternos,1,175.75,175.75,Devuelto
+ALQUILER,56,83,2024-09-29,40,San Borja,7,Asesor de alquileres,8,Terno de ceremonia,Ternos,1,205.0,205.0,Devuelto
+ALQUILER,57,84,2024-09-30,53,Breña,2,Asesora de ventas,1,Terno clásico slim,Ternos,1,114.0,114.0,Devuelto
+ALQUILER,57,85,2024-09-30,53,Breña,2,Asesora de ventas,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,58,86,2024-10-09,75,Miraflores,3,Asesor de ventas,7,Terno de ceremonia,Ternos,1,175.0,175.0,Devuelto
+ALQUILER,59,87,2024-10-16,1,San Miguel,2,Asesora de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,60,88,2024-10-18,71,Surco,6,Asesora de ventas,7,Terno de ceremonia,Ternos,1,175.0,175.0,Devuelto
+ALQUILER,61,89,2024-10-31,38,Breña,7,Asesor de alquileres,37,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,62,90,2024-11-02,50,Lince,7,Asesor de alquileres,24,Saco juvenil entallado,Blazers y sacos,1,70.0,70.0,Devuelto
+ALQUILER,63,91,2024-11-04,49,Magdalena,2,Asesora de ventas,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,63,92,2024-11-04,49,Magdalena,2,Asesora de ventas,33,Pañuelo de bolsillo,Accesorios,1,6.0,6.0,Devuelto
+ALQUILER,64,93,2024-11-07,5,Lince,6,Asesora de ventas,42,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,65,94,2024-11-13,61,San Miguel,4,Asesora de alquileres,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,66,95,2024-11-21,29,Los Olivos,6,Asesora de ventas,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,115.0,115.0,Devuelto
+ALQUILER,67,96,2024-11-22,49,Magdalena,6,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,68,97,2024-11-24,57,Comas,4,Asesora de alquileres,41,Vestido infantil tul,Trajes infantiles,1,52.25,52.25,Devuelto
+ALQUILER,69,98,2024-12-04,7,Jesús María,7,Asesor de alquileres,8,Terno de ceremonia,Ternos,1,194.75,194.75,Devuelto
+ALQUILER,70,99,2024-12-11,10,San Borja,7,Asesor de alquileres,6,Terno tres piezas,Ternos,1,190.0,190.0,Devuelto
+ALQUILER,71,100,2025-01-10,57,Comas,7,Asesor de alquileres,38,Tacón de fiesta,Calzado,1,49.5,49.5,Devuelto
+ALQUILER,71,101,2025-01-10,57,Comas,7,Asesor de alquileres,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,72,102,2025-01-10,56,Surco,2,Asesora de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,73,103,2025-01-10,31,San Miguel,2,Asesora de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,110.0,110.0,Devuelto
+ALQUILER,73,104,2025-01-10,31,San Miguel,2,Asesora de ventas,11,Vestido largo plisado,Vestidos,1,121.5,121.5,Devuelto
+ALQUILER,74,105,2025-01-19,4,Magdalena,6,Asesora de ventas,14,Vestido de coctel,Vestidos,1,109.25,109.25,Devuelto
+ALQUILER,75,106,2025-01-21,15,Miraflores,7,Asesor de alquileres,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,76,107,2025-01-21,56,Surco,2,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,76,108,2025-01-21,56,Surco,2,Asesora de ventas,7,Terno de ceremonia,Ternos,1,175.0,175.0,Devuelto
+ALQUILER,77,109,2025-01-22,72,Comas,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,152.0,152.0,Devuelto
+ALQUILER,77,110,2025-01-22,72,Comas,6,Asesora de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,125.0,125.0,Devuelto
+ALQUILER,78,111,2025-01-27,2,Chorrillos,6,Asesora de ventas,40,Terno infantil ceremonia,Trajes infantiles,1,66.5,66.5,Devuelto
+ALQUILER,78,112,2025-01-27,2,Chorrillos,6,Asesora de ventas,37,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,78,113,2025-01-27,2,Chorrillos,6,Asesora de ventas,1,Terno clásico slim,Ternos,1,108.0,108.0,Devuelto
+ALQUILER,79,114,2025-02-05,41,Surco,3,Asesor de ventas,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,79,115,2025-02-05,41,Surco,3,Asesor de ventas,19,Camisa cuello italiano,Camisas,1,32.0,32.0,Devuelto
+ALQUILER,80,116,2025-02-06,11,Surco,4,Asesora de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,81,117,2025-02-06,60,Miraflores,7,Asesor de alquileres,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,125.0,125.0,Devuelto
+ALQUILER,81,118,2025-02-06,60,Miraflores,7,Asesor de alquileres,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,81,119,2025-02-06,60,Miraflores,7,Asesor de alquileres,29,Corbata de seda,Accesorios,1,10.0,10.0,Devuelto
+ALQUILER,82,120,2025-02-07,12,Comas,3,Asesor de ventas,5,Terno tres piezas,Ternos,1,185.0,185.0,Devuelto
+ALQUILER,83,121,2025-02-09,30,Miraflores,6,Asesora de ventas,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,83,122,2025-02-09,30,Miraflores,6,Asesora de ventas,41,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,84,123,2025-02-16,70,San Borja,7,Asesor de alquileres,6,Terno tres piezas,Ternos,1,190.0,190.0,Devuelto
+ALQUILER,85,124,2025-03-01,52,Jesús María,4,Asesora de alquileres,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,85,125,2025-03-01,52,Jesús María,4,Asesora de alquileres,7,Terno de ceremonia,Ternos,1,175.0,175.0,Devuelto
+ALQUILER,85,126,2025-03-01,52,Jesús María,4,Asesora de alquileres,41,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,86,127,2025-03-09,71,Surco,3,Asesor de ventas,42,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,87,128,2025-03-13,70,San Borja,2,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,88,129,2025-03-13,4,Magdalena,6,Asesora de ventas,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,89,130,2025-03-20,37,Jesús María,4,Asesora de alquileres,14,Vestido de coctel,Vestidos,1,115.0,115.0,Devuelto
+ALQUILER,90,131,2025-04-04,54,La Molina,7,Asesor de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,90,132,2025-04-04,54,La Molina,7,Asesor de alquileres,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,91,133,2025-04-09,4,Magdalena,3,Asesor de ventas,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,91,134,2025-04-09,4,Magdalena,3,Asesor de ventas,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,92,135,2025-04-10,9,La Molina,2,Asesora de ventas,7,Terno de ceremonia,Ternos,1,175.0,175.0,Devuelto
+ALQUILER,92,136,2025-04-10,9,La Molina,2,Asesora de ventas,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,93,137,2025-04-14,5,Lince,7,Asesor de alquileres,8,Terno de ceremonia,Ternos,1,205.0,205.0,Devuelto
+ALQUILER,93,138,2025-04-14,5,Lince,7,Asesor de alquileres,30,Corbata de seda,Accesorios,1,10.0,10.0,Devuelto
+ALQUILER,94,139,2025-04-20,42,Comas,3,Asesor de ventas,15,Vestido de fiesta encaje,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,94,140,2025-04-20,42,Comas,3,Asesor de ventas,36,Zapato Derby,Calzado,1,58.5,58.5,Devuelto
+ALQUILER,95,141,2025-05-02,71,Surco,3,Asesor de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,96,142,2025-05-03,11,Surco,2,Asesora de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,125.0,125.0,Devuelto
+ALQUILER,96,143,2025-05-03,11,Surco,2,Asesora de ventas,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,96,144,2025-05-03,11,Surco,2,Asesora de ventas,8,Terno de ceremonia,Ternos,1,205.0,205.0,Devuelto
+ALQUILER,97,145,2025-05-05,42,Comas,7,Asesor de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,97,146,2025-05-05,42,Comas,7,Asesor de alquileres,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,98,147,2025-05-08,10,San Borja,6,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,98,148,2025-05-08,10,San Borja,6,Asesora de ventas,40,Terno infantil ceremonia,Trajes infantiles,1,66.5,66.5,Devuelto
+ALQUILER,99,149,2025-05-21,40,San Borja,4,Asesora de alquileres,32,Cinturón formal,Accesorios,1,12.0,12.0,Devuelto
+ALQUILER,99,150,2025-05-21,40,San Borja,4,Asesora de alquileres,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,100,151,2025-05-30,54,La Molina,3,Asesor de ventas,42,Vestido infantil tul,Trajes infantiles,1,52.25,52.25,Devuelto
+ALQUILER,100,152,2025-05-30,54,La Molina,3,Asesor de ventas,25,Pantalón de vestir slim,Pantalones,1,35.0,35.0,Devuelto
+ALQUILER,100,153,2025-05-30,54,La Molina,3,Asesor de ventas,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,101,154,2025-06-03,6,Cercado de Lima,7,Asesor de alquileres,40,Terno infantil ceremonia,Trajes infantiles,1,66.5,66.5,Devuelto
+ALQUILER,101,155,2025-06-03,6,Cercado de Lima,7,Asesor de alquileres,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,114.0,114.0,Devuelto
+ALQUILER,102,156,2025-06-18,34,Magdalena,7,Asesor de alquileres,5,Terno tres piezas,Ternos,1,175.75,175.75,Devuelto
+ALQUILER,103,157,2025-06-19,78,Pueblo Libre,3,Asesor de ventas,6,Terno tres piezas,Ternos,1,171.0,171.0,Devuelto
+ALQUILER,104,158,2025-06-25,57,Comas,3,Asesor de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,104,159,2025-06-25,57,Comas,3,Asesor de ventas,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,105,160,2025-06-28,68,Breña,2,Asesora de ventas,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,106,161,2025-06-30,68,Breña,7,Asesor de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,107,162,2025-07-03,56,Surco,7,Asesor de alquileres,40,Terno infantil ceremonia,Trajes infantiles,1,66.5,66.5,Devuelto
+ALQUILER,108,163,2025-07-13,4,Magdalena,2,Asesora de ventas,41,Vestido infantil tul,Trajes infantiles,1,49.5,49.5,Devuelto
+ALQUILER,108,164,2025-07-13,4,Magdalena,2,Asesora de ventas,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,109,165,2025-07-13,22,Jesús María,2,Asesora de ventas,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,109,166,2025-07-13,22,Jesús María,2,Asesora de ventas,5,Terno tres piezas,Ternos,1,185.0,185.0,Devuelto
+ALQUILER,110,167,2025-07-15,76,San Miguel,3,Asesor de ventas,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,110,168,2025-07-15,76,San Miguel,3,Asesor de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,111,169,2025-07-17,43,San Isidro,4,Asesora de alquileres,14,Vestido de coctel,Vestidos,1,115.0,115.0,Devuelto
+ALQUILER,111,170,2025-07-17,43,San Isidro,4,Asesora de alquileres,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,112,171,2025-07-24,63,Pueblo Libre,3,Asesor de ventas,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,113,172,2025-07-27,20,Lince,3,Asesor de ventas,41,Vestido infantil tul,Trajes infantiles,1,52.25,52.25,Devuelto
+ALQUILER,114,173,2025-08-02,2,Chorrillos,3,Asesor de ventas,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,115,174,2025-08-06,52,Jesús María,4,Asesora de alquileres,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,115,175,2025-08-06,52,Jesús María,4,Asesora de alquileres,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,116,176,2025-08-07,21,Cercado de Lima,2,Asesora de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,110.0,110.0,Devuelto
+ALQUILER,116,177,2025-08-07,21,Cercado de Lima,2,Asesora de ventas,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,117,178,2025-08-11,36,Cercado de Lima,4,Asesora de alquileres,6,Terno tres piezas,Ternos,1,190.0,190.0,Devuelto
+ALQUILER,118,179,2025-08-15,19,Magdalena,7,Asesor de alquileres,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,119,180,2025-08-18,64,Magdalena,7,Asesor de alquileres,24,Saco juvenil entallado,Blazers y sacos,1,70.0,70.0,Devuelto
+ALQUILER,119,181,2025-08-18,64,Magdalena,7,Asesor de alquileres,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,120,182,2025-08-22,23,Breña,6,Asesora de ventas,8,Terno de ceremonia,Ternos,1,194.75,194.75,Devuelto
+ALQUILER,121,183,2025-08-22,56,Surco,3,Asesor de ventas,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,121,184,2025-08-22,56,Surco,3,Asesor de ventas,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,122,185,2025-08-30,4,Magdalena,4,Asesora de alquileres,42,Vestido infantil tul,Trajes infantiles,1,49.5,49.5,Devuelto
+ALQUILER,123,186,2025-09-05,72,Comas,7,Asesor de alquileres,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,123,187,2025-09-05,72,Comas,7,Asesor de alquileres,15,Vestido de fiesta encaje,Vestidos,1,142.5,142.5,Devuelto
+ALQUILER,123,188,2025-09-05,72,Comas,7,Asesor de alquileres,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,124,189,2025-09-06,20,Lince,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,144.0,144.0,Devuelto
+ALQUILER,125,190,2025-09-08,38,Breña,4,Asesora de alquileres,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,126,191,2025-09-12,32,Chorrillos,3,Asesor de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,110.0,110.0,Devuelto
+ALQUILER,126,192,2025-09-12,32,Chorrillos,3,Asesor de ventas,22,Blazer de lino,Blazers y sacos,1,80.0,80.0,Devuelto
+ALQUILER,127,193,2025-09-17,37,Jesús María,6,Asesora de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,114.0,114.0,Devuelto
+ALQUILER,128,194,2025-09-18,76,San Miguel,3,Asesor de ventas,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,128,195,2025-09-18,76,San Miguel,3,Asesor de ventas,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,129,196,2025-09-18,75,Miraflores,3,Asesor de ventas,15,Vestido de fiesta encaje,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,130,197,2025-09-19,76,San Miguel,6,Asesora de ventas,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,131,198,2025-09-25,30,Miraflores,6,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,139.5,139.5,Devuelto
+ALQUILER,132,199,2025-10-01,6,Cercado de Lima,4,Asesora de alquileres,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,133,200,2025-10-06,70,San Borja,6,Asesora de ventas,38,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,133,201,2025-10-06,70,San Borja,6,Asesora de ventas,21,Blazer de lino,Blazers y sacos,1,71.25,71.25,Devuelto
+ALQUILER,134,202,2025-10-07,25,San Borja,3,Asesor de ventas,6,Terno tres piezas,Ternos,1,180.5,180.5,Devuelto
+ALQUILER,134,203,2025-10-07,25,San Borja,3,Asesor de ventas,36,Zapato Derby,Calzado,1,65.0,65.0,Devuelto
+ALQUILER,135,204,2025-10-07,12,Comas,2,Asesora de ventas,4,Terno ejecutivo,Ternos,1,135.0,135.0,Devuelto
+ALQUILER,135,205,2025-10-07,12,Comas,2,Asesora de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,135,206,2025-10-07,12,Comas,2,Asesora de ventas,41,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,136,207,2025-10-09,43,San Isidro,3,Asesor de ventas,14,Vestido de coctel,Vestidos,1,109.25,109.25,Devuelto
+ALQUILER,137,208,2025-10-09,52,Jesús María,4,Asesora de alquileres,8,Terno de ceremonia,Ternos,1,205.0,205.0,Devuelto
+ALQUILER,137,209,2025-10-09,52,Jesús María,4,Asesora de alquileres,11,Vestido largo plisado,Vestidos,1,128.25,128.25,Devuelto
+ALQUILER,138,210,2025-10-10,36,Cercado de Lima,6,Asesora de ventas,4,Terno ejecutivo,Ternos,1,135.0,135.0,Devuelto
+ALQUILER,139,211,2025-10-10,59,Los Olivos,4,Asesora de alquileres,14,Vestido de coctel,Vestidos,1,115.0,115.0,Devuelto
+ALQUILER,139,212,2025-10-10,59,Los Olivos,4,Asesora de alquileres,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,140,213,2025-10-12,63,Pueblo Libre,6,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,140,214,2025-10-12,63,Pueblo Libre,6,Asesora de ventas,24,Saco juvenil entallado,Blazers y sacos,1,70.0,70.0,Devuelto
+ALQUILER,141,215,2025-10-15,23,Breña,7,Asesor de alquileres,5,Terno tres piezas,Ternos,1,185.0,185.0,Devuelto
+ALQUILER,141,216,2025-10-15,23,Breña,7,Asesor de alquileres,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,142,217,2025-10-21,28,San Isidro,3,Asesor de ventas,14,Vestido de coctel,Vestidos,1,109.25,109.25,Devuelto
+ALQUILER,142,218,2025-10-21,28,San Isidro,3,Asesor de ventas,40,Terno infantil ceremonia,Trajes infantiles,1,70.0,70.0,Devuelto
+ALQUILER,142,219,2025-10-21,28,San Isidro,3,Asesor de ventas,15,Vestido de fiesta encaje,Vestidos,1,142.5,142.5,Devuelto
+ALQUILER,143,220,2025-10-23,2,Chorrillos,3,Asesor de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,144,221,2025-10-24,90,Miraflores,4,Asesora de alquileres,41,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,145,222,2025-10-31,49,Magdalena,2,Asesora de ventas,4,Terno ejecutivo,Ternos,1,150.0,150.0,Devuelto
+ALQUILER,146,223,2025-11-20,55,San Borja,3,Asesor de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,147,224,2025-11-21,76,San Miguel,3,Asesor de ventas,8,Terno de ceremonia,Ternos,1,194.75,194.75,Devuelto
+ALQUILER,148,225,2025-11-21,75,Miraflores,6,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,148,226,2025-11-21,75,Miraflores,6,Asesora de ventas,35,Zapato Oxford cuero,Calzado,1,60.0,60.0,Devuelto
+ALQUILER,149,227,2025-11-24,24,La Molina,2,Asesora de ventas,29,Corbata de seda,Accesorios,2,10.0,20.0,Devuelto
+ALQUILER,149,228,2025-11-24,24,La Molina,2,Asesora de ventas,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,150,229,2025-11-27,39,La Molina,2,Asesora de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,125.0,125.0,Devuelto
+ALQUILER,151,230,2025-11-28,52,Jesús María,3,Asesor de ventas,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,152,231,2025-11-28,63,Pueblo Libre,7,Asesor de alquileres,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,152,232,2025-11-28,63,Pueblo Libre,7,Asesor de alquileres,42,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,152,233,2025-11-28,63,Pueblo Libre,7,Asesor de alquileres,8,Terno de ceremonia,Ternos,1,205.0,205.0,Devuelto
+ALQUILER,153,234,2025-12-05,37,Jesús María,4,Asesora de alquileres,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,154,235,2025-12-08,54,La Molina,2,Asesora de ventas,2,Terno clásico slim,Ternos,1,112.5,112.5,Devuelto
+ALQUILER,154,236,2025-12-08,54,La Molina,2,Asesora de ventas,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,155,237,2025-12-09,11,Surco,3,Asesor de ventas,36,Zapato Derby,Calzado,1,65.0,65.0,Devuelto
+ALQUILER,155,238,2025-12-09,11,Surco,3,Asesor de ventas,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,156,239,2025-12-11,39,La Molina,2,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,156,240,2025-12-11,39,La Molina,2,Asesora de ventas,36,Zapato Derby,Calzado,1,65.0,65.0,Devuelto
+ALQUILER,157,241,2025-12-17,10,San Borja,3,Asesor de ventas,12,Vestido largo plisado,Vestidos,1,126.0,126.0,Devuelto
+ALQUILER,157,242,2025-12-17,10,San Borja,3,Asesor de ventas,15,Vestido de fiesta encaje,Vestidos,1,142.5,142.5,Devuelto
+ALQUILER,157,243,2025-12-17,10,San Borja,3,Asesor de ventas,10,Vestido de gala satinado,Vestidos,1,152.0,152.0,Devuelto
+ALQUILER,158,244,2025-12-22,41,Surco,3,Asesor de ventas,32,Cinturón formal,Accesorios,2,12.0,24.0,Devuelto
+ALQUILER,159,245,2026-01-13,15,Miraflores,4,Asesora de alquileres,14,Vestido de coctel,Vestidos,1,115.0,115.0,Devuelto
+ALQUILER,160,246,2026-01-18,23,Breña,4,Asesora de alquileres,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,161,247,2026-01-22,13,San Isidro,7,Asesor de alquileres,40,Terno infantil ceremonia,Trajes infantiles,1,70.0,70.0,Devuelto
+ALQUILER,161,248,2026-01-22,13,San Isidro,7,Asesor de alquileres,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,162,249,2026-01-22,81,Cercado de Lima,7,Asesor de alquileres,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,162,250,2026-01-22,81,Cercado de Lima,7,Asesor de alquileres,12,Vestido largo plisado,Vestidos,1,133.0,133.0,Devuelto
+ALQUILER,163,251,2026-01-26,54,La Molina,6,Asesora de ventas,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,164,252,2026-01-27,2,Chorrillos,2,Asesora de ventas,41,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,164,253,2026-01-27,2,Chorrillos,2,Asesora de ventas,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,165,254,2026-01-27,65,Lince,7,Asesor de alquileres,42,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,165,255,2026-01-27,65,Lince,7,Asesor de alquileres,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,165,256,2026-01-27,65,Lince,7,Asesor de alquileres,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,166,257,2026-01-30,37,Jesús María,7,Asesor de alquileres,24,Saco juvenil entallado,Blazers y sacos,1,70.0,70.0,Devuelto
+ALQUILER,167,258,2026-02-03,8,Breña,6,Asesora de ventas,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,168,259,2026-02-09,64,Magdalena,3,Asesor de ventas,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,168,260,2026-02-09,64,Magdalena,3,Asesor de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,168,261,2026-02-09,64,Magdalena,3,Asesor de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,110.0,110.0,Devuelto
+ALQUILER,169,262,2026-02-15,43,San Isidro,2,Asesora de ventas,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,169,263,2026-02-15,43,San Isidro,2,Asesora de ventas,20,Camisa cuello italiano,Camisas,1,35.0,35.0,Devuelto
+ALQUILER,170,264,2026-02-16,11,Surco,3,Asesor de ventas,29,Corbata de seda,Accesorios,1,10.0,10.0,Devuelto
+ALQUILER,170,265,2026-02-16,11,Surco,3,Asesor de ventas,8,Terno de ceremonia,Ternos,1,205.0,205.0,Devuelto
+ALQUILER,171,266,2026-02-19,48,Pueblo Libre,4,Asesora de alquileres,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,171,267,2026-02-19,48,Pueblo Libre,4,Asesora de alquileres,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,118.75,118.75,Devuelto
+ALQUILER,171,268,2026-02-19,48,Pueblo Libre,4,Asesora de alquileres,42,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,172,269,2026-02-22,26,Surco,6,Asesora de ventas,7,Terno de ceremonia,Ternos,1,166.25,166.25,Devuelto
+ALQUILER,172,270,2026-02-22,26,Surco,6,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,172,271,2026-02-22,26,Surco,6,Asesora de ventas,38,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,173,272,2026-02-23,43,San Isidro,3,Asesor de ventas,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,174,273,2026-02-28,38,Breña,4,Asesora de alquileres,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,174,274,2026-02-28,38,Breña,4,Asesora de alquileres,40,Terno infantil ceremonia,Trajes infantiles,1,66.5,66.5,Devuelto
+ALQUILER,175,275,2026-03-04,48,Pueblo Libre,6,Asesora de ventas,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,175,276,2026-03-04,48,Pueblo Libre,6,Asesora de ventas,42,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,176,277,2026-03-07,38,Breña,3,Asesor de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,104.5,104.5,Devuelto
+ALQUILER,177,278,2026-03-23,68,Breña,6,Asesora de ventas,13,Vestido de coctel,Vestidos,1,99.75,99.75,Devuelto
+ALQUILER,178,279,2026-03-27,46,San Miguel,6,Asesora de ventas,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,178,280,2026-03-27,46,San Miguel,6,Asesora de ventas,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,179,281,2026-03-30,17,Chorrillos,2,Asesora de ventas,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,179,282,2026-03-30,17,Chorrillos,2,Asesora de ventas,37,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,179,283,2026-03-30,17,Chorrillos,2,Asesora de ventas,34,Set de gemelos,Accesorios,1,15.0,15.0,Devuelto
+ALQUILER,180,284,2026-04-06,64,Magdalena,6,Asesora de ventas,33,Pañuelo de bolsillo,Accesorios,1,6.0,6.0,Devuelto
+ALQUILER,181,285,2026-04-15,73,San Isidro,6,Asesora de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,114.0,114.0,Devuelto
+ALQUILER,182,286,2026-04-17,26,Surco,2,Asesora de ventas,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,182,287,2026-04-17,26,Surco,2,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,152.0,152.0,Devuelto
+ALQUILER,183,288,2026-04-25,2,Chorrillos,2,Asesora de ventas,36,Zapato Derby,Calzado,1,65.0,65.0,Devuelto
+ALQUILER,184,289,2026-04-26,76,San Miguel,3,Asesor de ventas,13,Vestido de coctel,Vestidos,1,99.75,99.75,Devuelto
+ALQUILER,185,290,2026-04-28,43,San Isidro,4,Asesora de alquileres,17,Camisa Oxford premium,Camisas,1,28.0,28.0,Devuelto
+ALQUILER,185,291,2026-04-28,43,San Isidro,4,Asesora de alquileres,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,186,292,2026-04-30,73,San Isidro,4,Asesora de alquileres,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,187,293,2026-05-02,1,San Miguel,6,Asesora de ventas,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,187,294,2026-05-02,1,San Miguel,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,188,295,2026-05-04,3,Pueblo Libre,7,Asesor de alquileres,8,Terno de ceremonia,Ternos,1,194.75,194.75,Devuelto
+ALQUILER,189,296,2026-05-12,24,La Molina,2,Asesora de ventas,41,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,189,297,2026-05-12,24,La Molina,2,Asesora de ventas,5,Terno tres piezas,Ternos,1,185.0,185.0,Devuelto
+ALQUILER,190,298,2026-05-22,12,Comas,3,Asesor de ventas,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,190,299,2026-05-22,12,Comas,3,Asesor de ventas,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,115.0,115.0,Devuelto
+ALQUILER,191,300,2026-05-24,65,Lince,7,Asesor de alquileres,2,Terno clásico slim,Ternos,1,112.5,112.5,Devuelto
+ALQUILER,192,301,2026-05-28,53,Breña,4,Asesora de alquileres,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,193,302,2026-05-31,2,Chorrillos,7,Asesor de alquileres,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,193,303,2026-05-31,2,Chorrillos,7,Asesor de alquileres,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,118.75,118.75,Devuelto
+ALQUILER,194,304,2026-06-02,43,San Isidro,7,Asesor de alquileres,41,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,195,305,2026-06-16,57,Comas,7,Asesor de alquileres,45,Conjunto blazer y falda,Conjuntos femeninos,1,110.0,110.0,Devuelto
+ALQUILER,196,306,2026-06-16,3,Pueblo Libre,2,Asesora de ventas,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,196,307,2026-06-16,3,Pueblo Libre,2,Asesora de ventas,1,Terno clásico slim,Ternos,1,114.0,114.0,Devuelto
+ALQUILER,197,308,2026-06-19,63,Pueblo Libre,4,Asesora de alquileres,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,197,309,2026-06-19,63,Pueblo Libre,4,Asesora de alquileres,1,Terno clásico slim,Ternos,1,120.0,120.0,Devuelto
+ALQUILER,198,310,2026-06-20,7,Jesús María,6,Asesora de ventas,40,Terno infantil ceremonia,Trajes infantiles,1,70.0,70.0,Devuelto
+ALQUILER,198,311,2026-06-20,7,Jesús María,6,Asesora de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,125.0,125.0,Devuelto
+ALQUILER,199,312,2026-06-24,23,Breña,3,Asesor de ventas,40,Terno infantil ceremonia,Trajes infantiles,1,70.0,70.0,Devuelto
+ALQUILER,199,313,2026-06-24,23,Breña,3,Asesor de ventas,7,Terno de ceremonia,Ternos,1,175.0,175.0,Devuelto
+ALQUILER,200,314,2026-06-27,75,Miraflores,4,Asesora de alquileres,14,Vestido de coctel,Vestidos,1,115.0,115.0,Devuelto
+ALQUILER,200,315,2026-06-27,75,Miraflores,4,Asesora de alquileres,22,Blazer de lino,Blazers y sacos,1,80.0,80.0,Devuelto
+ALQUILER,201,316,2026-06-29,28,San Isidro,7,Asesor de alquileres,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,202,317,2026-06-29,87,Comas,7,Asesor de alquileres,6,Terno tres piezas,Ternos,1,180.5,180.5,Devuelto
+ALQUILER,203,318,2026-07-02,13,San Isidro,7,Asesor de alquileres,24,Saco juvenil entallado,Blazers y sacos,1,70.0,70.0,Devuelto
+ALQUILER,203,319,2026-07-02,13,San Isidro,7,Asesor de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,204,320,2026-07-06,63,Pueblo Libre,3,Asesor de ventas,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,204,321,2026-07-06,63,Pueblo Libre,3,Asesor de ventas,5,Terno tres piezas,Ternos,1,185.0,185.0,Devuelto
+ALQUILER,204,322,2026-07-06,63,Pueblo Libre,3,Asesor de ventas,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,125.0,125.0,Devuelto
+ALQUILER,205,323,2026-07-06,29,Los Olivos,6,Asesora de ventas,10,Vestido de gala satinado,Vestidos,1,160.0,160.0,Devuelto
+ALQUILER,205,324,2026-07-06,29,Los Olivos,6,Asesora de ventas,3,Terno ejecutivo,Ternos,1,145.0,145.0,Devuelto
+ALQUILER,206,325,2026-07-07,57,Comas,7,Asesor de alquileres,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,206,326,2026-07-07,57,Comas,7,Asesor de alquileres,24,Saco juvenil entallado,Blazers y sacos,1,70.0,70.0,Devuelto
+ALQUILER,207,327,2026-07-09,85,San Borja,4,Asesora de alquileres,2,Terno clásico slim,Ternos,1,112.5,112.5,Devuelto
+ALQUILER,207,328,2026-07-09,85,San Borja,4,Asesora de alquileres,37,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,208,329,2026-07-09,87,Comas,2,Asesora de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,61.75,61.75,Devuelto
+ALQUILER,209,330,2026-07-12,28,San Isidro,6,Asesora de ventas,38,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,210,331,2026-07-15,50,Lince,6,Asesora de ventas,27,Pantalón sastre dama,Pantalones,1,45.0,45.0,Devuelto
+ALQUILER,211,332,2026-07-20,26,Surco,6,Asesora de ventas,8,Terno de ceremonia,Ternos,1,205.0,205.0,Devuelto
+ALQUILER,212,333,2026-07-21,13,San Isidro,6,Asesora de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,212,334,2026-07-21,13,San Isidro,6,Asesora de ventas,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,Devuelto
+ALQUILER,212,335,2026-07-21,13,San Isidro,6,Asesora de ventas,45,Conjunto blazer y falda,Conjuntos femeninos,1,110.0,110.0,Devuelto
+ALQUILER,213,336,2026-07-25,68,Breña,6,Asesora de ventas,42,Vestido infantil tul,Trajes infantiles,1,52.25,52.25,Devuelto
+ALQUILER,213,337,2026-07-25,68,Breña,6,Asesora de ventas,25,Pantalón de vestir slim,Pantalones,1,35.0,35.0,Devuelto
+ALQUILER,214,338,2026-07-29,60,Miraflores,2,Asesora de ventas,35,Zapato Oxford cuero,Calzado,1,60.0,60.0,Devuelto
+ALQUILER,215,339,2026-08-02,33,Pueblo Libre,3,Asesor de ventas,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,216,340,2026-08-02,69,La Molina,7,Asesor de alquileres,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,217,341,2026-08-09,38,Breña,7,Asesor de alquileres,16,Vestido madrina,Vestidos,1,180.0,180.0,Devuelto
+ALQUILER,218,342,2026-08-10,88,San Isidro,2,Asesora de ventas,17,Camisa Oxford premium,Camisas,1,28.0,28.0,Devuelto
+ALQUILER,218,343,2026-08-10,88,San Isidro,2,Asesora de ventas,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Devuelto
+ALQUILER,219,344,2026-08-15,32,Chorrillos,7,Asesor de alquileres,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,219,345,2026-08-15,32,Chorrillos,7,Asesor de alquileres,42,Vestido infantil tul,Trajes infantiles,1,52.25,52.25,Devuelto
+ALQUILER,220,346,2026-08-19,74,Los Olivos,6,Asesora de ventas,22,Blazer de lino,Blazers y sacos,1,80.0,80.0,Devuelto
+ALQUILER,221,347,2026-08-21,40,San Borja,6,Asesora de ventas,14,Vestido de coctel,Vestidos,1,115.0,115.0,Devuelto
+ALQUILER,221,348,2026-08-21,40,San Borja,6,Asesora de ventas,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,221,349,2026-08-21,40,San Borja,6,Asesora de ventas,22,Blazer de lino,Blazers y sacos,1,80.0,80.0,Devuelto
+ALQUILER,222,350,2026-08-21,14,Los Olivos,7,Asesor de alquileres,13,Vestido de coctel,Vestidos,1,105.0,105.0,Devuelto
+ALQUILER,222,351,2026-08-21,14,Los Olivos,7,Asesor de alquileres,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,118.75,118.75,Devuelto
+ALQUILER,222,352,2026-08-21,14,Los Olivos,7,Asesor de alquileres,36,Zapato Derby,Calzado,1,65.0,65.0,Devuelto
+ALQUILER,223,353,2026-08-22,14,Los Olivos,6,Asesora de ventas,37,Tacón de fiesta,Calzado,1,55.0,55.0,Devuelto
+ALQUILER,223,354,2026-08-22,14,Los Olivos,6,Asesora de ventas,6,Terno tres piezas,Ternos,1,190.0,190.0,Devuelto
+ALQUILER,224,355,2026-08-26,71,Surco,6,Asesora de ventas,5,Terno tres piezas,Ternos,1,185.0,185.0,Devuelto
+ALQUILER,224,356,2026-08-26,71,Surco,6,Asesora de ventas,9,Vestido de gala satinado,Vestidos,1,155.0,155.0,Devuelto
+ALQUILER,225,357,2026-08-29,72,Comas,3,Asesor de ventas,44,Conjunto sastre dos piezas,Conjuntos femeninos,1,120.0,120.0,Devuelto
+ALQUILER,225,358,2026-08-29,72,Comas,3,Asesor de ventas,11,Vestido largo plisado,Vestidos,1,135.0,135.0,Devuelto
+ALQUILER,226,359,2026-09-08,56,Surco,4,Asesora de alquileres,15,Vestido de fiesta encaje,Vestidos,1,150.0,150.0,Devuelto
+ALQUILER,227,360,2026-09-13,84,La Molina,6,Asesora de ventas,2,Terno clásico slim,Ternos,1,125.0,125.0,Devuelto
+ALQUILER,228,361,2026-09-20,2,Chorrillos,4,Asesora de alquileres,5,Terno tres piezas,Ternos,1,185.0,185.0,Devuelto
+ALQUILER,229,362,2026-10-07,46,San Miguel,4,Asesora de alquileres,4,Terno ejecutivo,Ternos,1,150.0,150.0,Vencido
+ALQUILER,229,363,2026-10-07,46,San Miguel,4,Asesora de alquileres,8,Terno de ceremonia,Ternos,1,205.0,205.0,Vencido
+ALQUILER,230,364,2026-10-08,12,Comas,7,Asesor de alquileres,46,Conjunto blazer y pantalón,Conjuntos femeninos,1,118.75,118.75,Devuelto
+ALQUILER,231,365,2026-10-09,74,Los Olivos,4,Asesora de alquileres,12,Vestido largo plisado,Vestidos,1,140.0,140.0,Vencido
+ALQUILER,232,366,2026-10-10,24,La Molina,4,Asesora de alquileres,6,Terno tres piezas,Ternos,1,190.0,190.0,En curso
+ALQUILER,233,367,2026-10-11,9,La Molina,7,Asesor de alquileres,43,Conjunto sastre dos piezas,Conjuntos femeninos,1,115.0,115.0,En curso
+ALQUILER,233,368,2026-10-11,9,La Molina,7,Asesor de alquileres,5,Terno tres piezas,Ternos,1,185.0,185.0,En curso
+ALQUILER,234,369,2026-10-11,89,Los Olivos,4,Asesora de alquileres,39,Terno infantil ceremonia,Trajes infantiles,1,65.0,65.0,En curso
+ALQUILER,235,370,2026-10-12,71,Surco,7,Asesor de alquileres,42,Vestido infantil tul,Trajes infantiles,1,55.0,55.0,Devuelto
+ALQUILER,235,371,2026-10-12,71,Surco,7,Asesor de alquileres,11,Vestido largo plisado,Vestidos,1,128.25,128.25,Devuelto
+ALQUILER,236,372,2026-10-13,78,Pueblo Libre,4,Asesora de alquileres,45,Conjunto blazer y falda,Conjuntos femeninos,1,110.0,110.0,En curso
+ALQUILER,237,373,2026-10-13,71,Surco,6,Asesora de ventas,14,Vestido de coctel,Vestidos,1,115.0,115.0,En curso
+ALQUILER,238,374,2026-10-14,60,Miraflores,6,Asesora de ventas,7,Terno de ceremonia,Ternos,1,166.25,166.25,Reservado
+ALQUILER,238,375,2026-10-14,60,Miraflores,6,Asesora de ventas,37,Tacón de fiesta,Calzado,1,52.25,52.25,Reservado
+ALQUILER,239,376,2026-10-14,54,La Molina,7,Asesor de alquileres,13,Vestido de coctel,Vestidos,1,94.5,94.5,En curso
+ALQUILER,240,377,2026-10-15,13,San Isidro,4,Asesora de alquileres,12,Vestido largo plisado,Vestidos,1,126.0,126.0,En curso
+ALQUILER,240,378,2026-10-15,13,San Isidro,4,Asesora de alquileres,20,Camisa cuello italiano,Camisas,1,35.0,35.0,En curso
