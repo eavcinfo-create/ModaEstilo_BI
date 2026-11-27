@@ -1,0 +1,108 @@
+id_devolucion,alquiler,fecha_devolucion,articulo,categoria,tipo_falla,gravedad,accion,tipo_devolucion,dias_retraso,monto_cargo
+1,EXCEL-RED-0001,2026-01-09,Vestido de cóctel,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+2,EXCEL-RED-0002,2026-01-12,Vestido de cóctel,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+3,EXCEL-RED-0003,2026-01-16,Vestido largo plisado,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+4,EXCEL-RED-0004,2026-01-21,Vestido infantil de tul,Trajes infantiles,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+5,EXCEL-RED-0005,2026-01-26,Vestido de fiesta encaje,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+6,EXCEL-RED-0006,2026-01-29,Terno infantil,Trajes infantiles,Costura abierta,Moderada,Reparación,Con falla,0,44.00
+7,EXCEL-RED-0007,2026-02-02,Camisa cuello italiano,Camisas,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+8,EXCEL-RED-0007,2026-02-02,Terno slim fit,Ternos,Mancha,Leve,Limpieza,Con falla,0,30.00
+9,EXCEL-RED-0008,2026-02-07,Terno Clasico,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+10,EXCEL-RED-0009,2026-02-13,Terno de ceremonia,Ternos,Ninguna,Sin falla,Ninguna,Con retraso,3,0.00
+11,EXCEL-RED-0010,2026-02-16,Vestido de fiesta encaje,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+12,EXCEL-RED-0012,2026-02-22,Camisa Formal,Camisas,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+13,EXCEL-RED-0012,2026-02-22,Terno Ejecutivo,Ternos,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+14,EXCEL-RED-0013,2026-02-26,Corbata Clasica,Accesorios,Costura abierta,Moderada,Reparación,Con falla,0,42.00
+15,EXCEL-RED-0013,2026-02-26,Saco cruzado,Blazers y sacos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+16,EXCEL-RED-0014,2026-03-02,Blazer de lino,Blazers y sacos,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+17,EXCEL-RED-0015,2026-03-06,Terno tres piezas,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+18,EXCEL-RED-0016,2026-03-10,Pajarita satinada,Accesorios,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+19,EXCEL-RED-0016,2026-03-10,Terno de ceremonia,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+20,EXCEL-RED-0017,2026-03-13,Terno infantil,Trajes infantiles,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+21,EXCEL-RED-0018,2026-03-17,Terno Ejecutivo,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+22,EXCEL-RED-0019,2026-03-24,Camisa Formal,Camisas,Botón faltante,Leve,Reparación,Con retraso y falla,2,11.00
+23,EXCEL-RED-0019,2026-03-24,Terno slim fit,Ternos,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+24,EXCEL-RED-0020,2026-03-26,Terno de ceremonia,Ternos,Rotura de tela,Grave,Reparación,Con falla,0,134.00
+25,EXCEL-RED-0021,2026-04-02,Vestido de cóctel,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,3,0.00
+26,EXCEL-RED-0022,2026-04-04,Saco cruzado,Blazers y sacos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+27,EXCEL-RED-0023,2026-04-11,Vestido de gala satinado,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+28,EXCEL-RED-0024,2026-04-11,Corbata Clasica,Accesorios,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+29,EXCEL-RED-0024,2026-04-11,Terno tres piezas,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+30,EXCEL-RED-0025,2026-04-13,Terno slim fit,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+31,EXCEL-RED-0026,2026-04-17,Vestido Elegante,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+32,EXCEL-RED-0027,2026-04-21,Terno slim fit,Ternos,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+33,EXCEL-RED-0028,2026-04-23,Terno infantil,Trajes infantiles,Botón faltante,Leve,Reparación,Con falla,0,11.00
+34,EXCEL-RED-0029,2026-04-25,Vestido de cóctel,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+35,EXCEL-RED-0030,2026-04-27,Pajarita satinada,Accesorios,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+36,EXCEL-RED-0030,2026-04-27,Terno Ejecutivo,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+37,EXCEL-RED-0031,2026-04-30,Pañuelo de bolsillo,Accesorios,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+38,EXCEL-RED-0032,2026-05-04,Vestido Elegante,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+39,EXCEL-RED-0033,2026-05-08,Terno tres piezas,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+40,EXCEL-RED-0034,2026-05-15,Terno Clasico,Ternos,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+41,EXCEL-RED-0035,2026-05-15,Vestido de gala satinado,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+42,EXCEL-RED-0036,2026-05-19,Saco cruzado,Blazers y sacos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+43,EXCEL-RED-0036,2026-05-19,Camisa Oxford,Camisas,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+44,EXCEL-RED-0037,2026-05-22,Vestido de gala satinado,Vestidos,Rotura de tela,Grave,Reparación,Con retraso y falla,1,148.00
+45,EXCEL-RED-0039,2026-05-28,Vestido infantil de tul,Trajes infantiles,Ninguna,Sin falla,Ninguna,Con retraso,3,0.00
+46,EXCEL-RED-0040,2026-05-28,Terno slim fit,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+47,EXCEL-RED-0041,2026-05-31,Vestido de fiesta encaje,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+48,EXCEL-RED-0043,2026-06-07,Terno Clasico,Ternos,Cierre dañado,Moderada,Reparación,Con falla,0,56.00
+49,EXCEL-RED-0044,2026-06-11,Vestido de fiesta encaje,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+50,EXCEL-RED-0045,2026-06-13,Terno Ejecutivo,Ternos,Mancha,Leve,Limpieza,Con falla,0,29.00
+51,EXCEL-RED-0046,2026-06-16,Terno de ceremonia,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+52,EXCEL-RED-0049,2026-06-29,Set de gemelos,Accesorios,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+53,EXCEL-RED-0049,2026-06-29,Terno Ejecutivo,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+54,EXCEL-RED-0050,2026-07-05,Terno tres piezas,Ternos,Mancha,Leve,Limpieza,Con retraso y falla,3,21.00
+55,EXCEL-RED-0051,2026-07-07,Vestido infantil de tul,Trajes infantiles,Botón faltante,Leve,Reparación,Con falla,0,11.00
+56,EXCEL-RED-0052,2026-07-13,Set de gemelos,Accesorios,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+57,EXCEL-RED-0052,2026-07-13,Saco cruzado,Blazers y sacos,Mancha,Leve,Limpieza,Con retraso y falla,1,34.00
+58,EXCEL-RED-0053,2026-07-17,Vestido largo plisado,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+59,EXCEL-RED-0055,2026-07-25,Camisa cuello italiano,Camisas,Ninguna,Sin falla,Ninguna,Con retraso,3,0.00
+60,EXCEL-RED-0055,2026-07-25,Terno tres piezas,Ternos,Ninguna,Sin falla,Ninguna,Con retraso,3,0.00
+61,EXCEL-RED-0057,2026-07-29,Vestido de gala satinado,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+62,EXCEL-RED-0058,2026-08-01,Terno infantil,Trajes infantiles,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+63,EXCEL-RED-0059,2026-08-05,Vestido de cóctel,Vestidos,Botón faltante,Leve,Reparación,Con retraso y falla,2,10.00
+64,EXCEL-RED-0060,2026-08-09,Saco cruzado,Blazers y sacos,Mancha,Leve,Limpieza,Con retraso y falla,1,23.00
+65,EXCEL-RED-0060,2026-08-09,Camisa Formal,Camisas,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+66,EXCEL-RED-0061,2026-08-10,Saco cruzado,Blazers y sacos,Cierre dañado,Moderada,Reparación,Con falla,0,47.00
+67,EXCEL-RED-0062,2026-08-18,Set de gemelos,Accesorios,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+68,EXCEL-RED-0062,2026-08-18,Terno tres piezas,Ternos,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+69,EXCEL-RED-0063,2026-08-20,Terno infantil,Trajes infantiles,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+70,EXCEL-RED-0064,2026-08-27,Terno infantil,Trajes infantiles,Ninguna,Sin falla,Ninguna,Con retraso,3,0.00
+71,EXCEL-RED-0065,2026-08-30,Blazer de lino,Blazers y sacos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+72,EXCEL-RED-0065,2026-08-30,Camisa Formal,Camisas,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+73,EXCEL-RED-0066,2026-09-01,Camisa cuello italiano,Camisas,Rotura de tela,Grave,Reparación,Con falla,0,131.00
+74,EXCEL-RED-0066,2026-09-01,Terno slim fit,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+75,EXCEL-RED-0067,2026-09-06,Vestido de gala satinado,Vestidos,Cierre dañado,Moderada,Reparación,Con retraso y falla,2,51.00
+76,EXCEL-RED-0068,2026-09-08,Vestido infantil de tul,Trajes infantiles,Rotura de tela,Grave,Reparación,Con falla,0,115.00
+77,EXCEL-RED-0069,2026-09-12,Vestido de gala satinado,Vestidos,Costura abierta,Moderada,Reparación,Con falla,0,30.00
+78,EXCEL-RED-0070,2026-09-15,Vestido de gala satinado,Vestidos,Mancha,Leve,Limpieza,Con falla,0,30.00
+79,EXCEL-RED-0071,2026-09-17,Terno infantil,Trajes infantiles,Cierre dañado,Moderada,Reparación,Con falla,0,54.00
+80,EXCEL-RED-0072,2026-09-24,Saco cruzado,Blazers y sacos,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+81,EXCEL-RED-0073,2026-09-26,Vestido de gala satinado,Vestidos,Botón faltante,Leve,Reparación,Con retraso y falla,1,10.00
+82,EXCEL-RED-0074,2026-09-27,Vestido de cóctel,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+83,EXCEL-RED-0076,2026-10-06,Vestido de fiesta encaje,Vestidos,Mancha,Leve,Limpieza,Con falla,0,26.00
+84,EXCEL-RED-0077,2026-10-10,Saco cruzado,Blazers y sacos,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+85,EXCEL-RED-0077,2026-10-10,Camisa Oxford,Camisas,Ninguna,Sin falla,Ninguna,Con retraso,1,0.00
+86,EXCEL-RED-0078,2026-10-11,Vestido largo plisado,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+87,EXCEL-RED-0079,2026-10-16,Vestido largo plisado,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+88,EXCEL-RED-0080,2026-10-19,Vestido largo plisado,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+89,EXCEL-RED-0081,2026-10-20,Terno tres piezas,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+90,EXCEL-RED-0082,2026-10-21,Vestido de cóctel,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+91,EXCEL-RED-0084,2026-11-02,Vestido de fiesta encaje,Vestidos,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+92,EXCEL-RED-0085,2026-11-02,Pañuelo de bolsillo,Accesorios,Pérdida de accesorio,Grave,Reposición,Con falla,0,64.00
+93,EXCEL-RED-0085,2026-11-02,Terno Clasico,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+94,EXCEL-RED-0086,2026-11-06,Pañuelo de bolsillo,Accesorios,Rotura de tela,Grave,Reparación,Con falla,0,115.00
+95,EXCEL-RED-0086,2026-11-06,Blazer de lino,Blazers y sacos,Mancha,Leve,Limpieza,Con falla,0,26.00
+96,EXCEL-RED-0087,2026-11-09,Terno infantil,Trajes infantiles,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+97,EXCEL-RED-0088,2026-11-13,Vestido Elegante,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+98,OLTP-1,2026-07-05,Terno Clasico,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+99,OLTP-10,2026-07-14,Terno Ejecutivo,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,40.00
+100,OLTP-2,2026-07-08,Terno Ejecutivo,Ternos,Ninguna,Sin falla,Ninguna,Con retraso,2,0.00
+101,OLTP-3,2026-07-07,Vestido Elegante,Vestidos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+102,OLTP-4,2026-07-08,Terno Clasico,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,50.00
+103,OLTP-5,2026-07-09,Terno Ejecutivo,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00
+104,OLTP-6,2026-07-10,Terno Clasico,Ternos,Daño no especificado,Leve,Reparación,Con falla,0,75.00
+105,OLTP-7,2026-07-14,Vestido Elegante,Vestidos,Cierre dañado,Moderada,Reparación,Con retraso y falla,3,44.00
+106,OLTP-8,2026-07-12,Terno Ejecutivo,Ternos,Mancha,Leve,Limpieza,Con falla,0,32.00
+107,OLTP-9,2026-07-13,Terno Clasico,Ternos,Ninguna,Sin falla,Ninguna,A tiempo,0,0.00

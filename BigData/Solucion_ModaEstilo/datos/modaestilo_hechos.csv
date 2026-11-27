@@ -1,0 +1,251 @@
+tipo_operacion,id_operacion,id_detalle,nro_documento,fuente,fecha,id_cliente,distrito,id_trabajador,cargo,id_articulo,articulo,categoria,canal,cantidad,precio_unitario,importe,estado
+VENTA,1,1,PV-0001,EXCEL,2026-01-03,6,San Borja,3,Vendedor,2,Pajarita satinada,Accesorios,WhatsApp,1,39.00,39.00,Vendido
+VENTA,1,2,PV-0001,EXCEL,2026-01-03,6,San Borja,3,Vendedor,4,Pañuelo de bolsillo,Accesorios,WhatsApp,2,29.00,58.00,Vendido
+VENTA,1,3,PV-0001,EXCEL,2026-01-03,6,San Borja,3,Vendedor,21,Vestido de gala satinado,Vestidos,WhatsApp,1,470.00,470.00,Vendido
+VENTA,2,4,PV-0002,EXCEL,2026-01-09,31,La Molina,2,Vendedor,2,Pajarita satinada,Accesorios,WhatsApp,1,35.10,35.10,Vendido
+VENTA,3,5,PV-0003,EXCEL,2026-01-15,18,Miraflores,3,Vendedor,10,Camisa Formal,Camisas,Web,1,90.00,90.00,Vendido
+VENTA,4,6,PV-0004,EXCEL,2026-01-19,26,San Borja,2,Vendedor,3,Set de gemelos,Accesorios,WhatsApp,3,67.50,202.50,Vendido
+VENTA,4,7,PV-0004,EXCEL,2026-01-19,26,San Borja,2,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,340.00,340.00,Vendido
+VENTA,4,8,PV-0004,EXCEL,2026-01-19,26,San Borja,2,Vendedor,14,Vestido infantil de tul,Trajes infantiles,WhatsApp,1,171.00,171.00,Vendido
+VENTA,5,9,PV-0005,EXCEL,2026-01-24,12,Los Olivos,3,Vendedor,13,Terno infantil,Trajes infantiles,WhatsApp,1,218.50,218.50,Vendido
+VENTA,5,10,PV-0005,EXCEL,2026-01-24,12,Los Olivos,3,Vendedor,17,Terno tres piezas,Ternos,WhatsApp,1,620.00,620.00,Vendido
+VENTA,6,11,PV-0006,EXCEL,2026-01-30,18,Miraflores,2,Vendedor,10,Camisa Formal,Camisas,Facebook,1,90.00,90.00,Vendido
+VENTA,6,12,PV-0006,EXCEL,2026-01-30,18,Miraflores,2,Vendedor,15,Terno Clasico,Ternos,Facebook,1,450.00,450.00,Vendido
+VENTA,7,13,PV-0007,EXCEL,2026-02-05,35,Comas,3,Vendedor,13,Terno infantil,Trajes infantiles,Instagram,1,218.50,218.50,Vendido
+VENTA,8,14,PV-0008,EXCEL,2026-02-10,41,San Borja,2,Vendedor,1,Corbata Clasica,Accesorios,Web,3,38.00,114.00,Vendido
+VENTA,8,15,PV-0008,EXCEL,2026-02-10,41,San Borja,2,Vendedor,17,Terno tres piezas,Ternos,Web,1,620.00,620.00,Vendido
+VENTA,9,16,PV-0009,EXCEL,2026-02-14,5,San Isidro,2,Vendedor,5,Blazer de lino,Blazers y sacos,WhatsApp,1,295.00,295.00,Vendido
+VENTA,9,17,PV-0009,EXCEL,2026-02-14,5,San Isidro,2,Vendedor,11,Camisa cuello italiano,Camisas,WhatsApp,1,114.00,114.00,Vendido
+VENTA,9,18,PV-0009,EXCEL,2026-02-14,5,San Isidro,2,Vendedor,20,Vestido Elegante,Vestidos,WhatsApp,1,315.00,315.00,Vendido
+VENTA,10,19,PV-0010,EXCEL,2026-02-20,18,Miraflores,2,Vendedor,13,Terno infantil,Trajes infantiles,WhatsApp,1,230.00,230.00,Vendido
+VENTA,10,20,PV-0010,EXCEL,2026-02-20,18,Miraflores,2,Vendedor,14,Vestido infantil de tul,Trajes infantiles,WhatsApp,1,171.00,171.00,Vendido
+VENTA,11,21,PV-0011,EXCEL,2026-02-24,4,Lince,3,Vendedor,11,Camisa cuello italiano,Camisas,Instagram,1,114.00,114.00,Vendido
+VENTA,12,22,PV-0012,EXCEL,2026-03-01,17,Pueblo Libre,3,Vendedor,17,Terno tres piezas,Ternos,Instagram,1,589.00,589.00,Vendido
+VENTA,13,23,PV-0013,EXCEL,2026-03-06,34,Breña,3,Vendedor,23,Vestido largo plisado,Vestidos,Web,1,369.00,369.00,Vendido
+VENTA,14,24,PV-0014,EXCEL,2026-03-11,13,Miraflores,3,Vendedor,19,Terno slim fit,Ternos,WhatsApp,1,513.00,513.00,Vendido
+VENTA,15,25,PV-0015,EXCEL,2026-03-17,4,Lince,3,Vendedor,15,Terno Clasico,Ternos,Instagram,1,405.00,405.00,Vendido
+VENTA,16,26,PV-0016,EXCEL,2026-03-23,19,Jesús María,2,Vendedor,7,Zapato Oxford de cuero,Calzado,Instagram,1,220.50,220.50,Vendido
+VENTA,17,27,PV-0017,EXCEL,2026-03-28,4,Lince,3,Vendedor,1,Corbata Clasica,Accesorios,Instagram,2,40.00,80.00,Vendido
+VENTA,17,28,PV-0017,EXCEL,2026-03-28,4,Lince,3,Vendedor,10,Camisa Formal,Camisas,Instagram,3,90.00,270.00,Vendido
+VENTA,18,29,PV-0018,EXCEL,2026-04-03,13,Miraflores,3,Vendedor,21,Vestido de gala satinado,Vestidos,Web,1,470.00,470.00,Vendido
+VENTA,18,30,PV-0018,EXCEL,2026-04-03,13,Miraflores,3,Vendedor,23,Vestido largo plisado,Vestidos,Web,1,410.00,410.00,Vendido
+VENTA,19,31,PV-0019,EXCEL,2026-04-07,11,San Isidro,2,Vendedor,12,Camisa Oxford,Camisas,Instagram,1,105.00,105.00,Vendido
+VENTA,20,32,PV-0020,EXCEL,2026-04-10,25,Comas,3,Vendedor,10,Camisa Formal,Camisas,Web,3,85.50,256.50,Vendido
+VENTA,21,33,PV-0021,EXCEL,2026-04-13,30,Pueblo Libre,3,Vendedor,7,Zapato Oxford de cuero,Calzado,Instagram,1,245.00,245.00,Vendido
+VENTA,22,34,PV-0022,EXCEL,2026-04-17,37,Breña,3,Vendedor,11,Camisa cuello italiano,Camisas,Instagram,1,120.00,120.00,Vendido
+VENTA,22,35,PV-0022,EXCEL,2026-04-17,37,Breña,3,Vendedor,21,Vestido de gala satinado,Vestidos,Instagram,1,470.00,470.00,Vendido
+VENTA,22,36,PV-0022,EXCEL,2026-04-17,37,Breña,3,Vendedor,22,Vestido de cóctel,Vestidos,Instagram,1,340.00,340.00,Vendido
+VENTA,23,37,PV-0023,EXCEL,2026-04-20,25,Comas,3,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,340.00,340.00,Vendido
+VENTA,23,38,PV-0023,EXCEL,2026-04-20,25,Comas,3,Vendedor,23,Vestido largo plisado,Vestidos,WhatsApp,1,410.00,410.00,Vendido
+VENTA,24,39,PV-0024,EXCEL,2026-04-23,44,San Isidro,3,Vendedor,10,Camisa Formal,Camisas,WhatsApp,1,90.00,90.00,Vendido
+VENTA,25,40,PV-0025,EXCEL,2026-04-27,42,Jesús María,3,Vendedor,24,Vestido de fiesta encaje,Vestidos,Facebook,1,432.25,432.25,Vendido
+VENTA,26,41,PV-0026,EXCEL,2026-04-30,14,Pueblo Libre,3,Vendedor,5,Blazer de lino,Blazers y sacos,WhatsApp,1,295.00,295.00,Vendido
+VENTA,27,42,PV-0027,EXCEL,2026-05-03,8,Los Olivos,3,Vendedor,21,Vestido de gala satinado,Vestidos,Web,1,470.00,470.00,Vendido
+VENTA,28,43,PV-0028,EXCEL,2026-05-06,2,Comas,3,Vendedor,17,Terno tres piezas,Ternos,Web,1,620.00,620.00,Vendido
+VENTA,28,44,PV-0028,EXCEL,2026-05-06,2,Comas,3,Vendedor,20,Vestido Elegante,Vestidos,Web,1,315.00,315.00,Vendido
+VENTA,29,45,PV-0029,EXCEL,2026-05-09,4,Lince,2,Vendedor,8,Tacón de fiesta,Calzado,Instagram,1,184.50,184.50,Vendido
+VENTA,30,46,PV-0030,EXCEL,2026-05-12,30,Pueblo Libre,2,Vendedor,5,Blazer de lino,Blazers y sacos,Instagram,1,265.50,265.50,Vendido
+VENTA,30,47,PV-0030,EXCEL,2026-05-12,30,Pueblo Libre,2,Vendedor,19,Terno slim fit,Ternos,Instagram,1,513.00,513.00,Vendido
+VENTA,30,48,PV-0030,EXCEL,2026-05-12,30,Pueblo Libre,2,Vendedor,24,Vestido de fiesta encaje,Vestidos,Instagram,1,432.25,432.25,Vendido
+VENTA,31,49,PV-0031,EXCEL,2026-05-16,5,San Isidro,2,Vendedor,18,Terno de ceremonia,Ternos,WhatsApp,1,680.00,680.00,Vendido
+VENTA,31,50,PV-0031,EXCEL,2026-05-16,5,San Isidro,2,Vendedor,22,Vestido de cóctel,Vestidos,WhatsApp,1,340.00,340.00,Vendido
+VENTA,32,51,PV-0032,EXCEL,2026-05-20,9,Comas,3,Vendedor,17,Terno tres piezas,Ternos,Instagram,1,620.00,620.00,Vendido
+VENTA,32,52,PV-0032,EXCEL,2026-05-20,9,Comas,3,Vendedor,20,Vestido Elegante,Vestidos,Instagram,1,350.00,350.00,Vendido
+VENTA,32,53,PV-0032,EXCEL,2026-05-20,9,Comas,3,Vendedor,22,Vestido de cóctel,Vestidos,Instagram,1,306.00,306.00,Vendido
+VENTA,33,54,PV-0033,EXCEL,2026-05-23,6,San Borja,3,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,340.00,340.00,Vendido
+VENTA,33,55,PV-0033,EXCEL,2026-05-23,6,San Borja,3,Vendedor,22,Vestido de cóctel,Vestidos,WhatsApp,1,306.00,306.00,Vendido
+VENTA,34,56,PV-0034,EXCEL,2026-05-26,12,Los Olivos,3,Vendedor,9,Zapato Derby,Calzado,Facebook,1,229.50,229.50,Vendido
+VENTA,35,57,PV-0035,EXCEL,2026-05-29,16,San Isidro,3,Vendedor,22,Vestido de cóctel,Vestidos,Web,1,323.00,323.00,Vendido
+VENTA,36,58,PV-0036,EXCEL,2026-06-01,2,Comas,3,Vendedor,7,Zapato Oxford de cuero,Calzado,Facebook,1,220.50,220.50,Vendido
+VENTA,37,59,PV-0037,EXCEL,2026-06-05,38,La Molina,2,Vendedor,17,Terno tres piezas,Ternos,Instagram,1,620.00,620.00,Vendido
+VENTA,38,60,PV-0038,EXCEL,2026-06-11,4,Lince,3,Vendedor,8,Tacón de fiesta,Calzado,WhatsApp,1,205.00,205.00,Vendido
+VENTA,38,61,PV-0038,EXCEL,2026-06-11,4,Lince,3,Vendedor,15,Terno Clasico,Ternos,WhatsApp,1,405.00,405.00,Vendido
+VENTA,38,62,PV-0038,EXCEL,2026-06-11,4,Lince,3,Vendedor,24,Vestido de fiesta encaje,Vestidos,WhatsApp,1,409.50,409.50,Vendido
+VENTA,39,63,PV-0039,EXCEL,2026-06-15,14,Pueblo Libre,2,Vendedor,23,Vestido largo plisado,Vestidos,Facebook,1,369.00,369.00,Vendido
+VENTA,40,64,PV-0040,EXCEL,2026-06-20,3,Surco,2,Vendedor,24,Vestido de fiesta encaje,Vestidos,Facebook,1,455.00,455.00,Vendido
+VENTA,41,65,PV-0041,EXCEL,2026-06-25,5,San Isidro,2,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,340.00,340.00,Vendido
+VENTA,41,66,PV-0041,EXCEL,2026-06-25,5,San Isidro,2,Vendedor,24,Vestido de fiesta encaje,Vestidos,WhatsApp,1,455.00,455.00,Vendido
+VENTA,42,67,PV-0042,EXCEL,2026-07-01,20,Breña,3,Vendedor,23,Vestido largo plisado,Vestidos,Facebook,1,389.50,389.50,Vendido
+VENTA,43,68,PV-0043,EXCEL,2026-07-06,26,San Borja,3,Vendedor,18,Terno de ceremonia,Ternos,Facebook,1,680.00,680.00,Vendido
+VENTA,44,69,PV-0044,EXCEL,2026-07-11,42,Jesús María,2,Vendedor,1,Corbata Clasica,Accesorios,Facebook,2,40.00,80.00,Vendido
+VENTA,44,70,PV-0044,EXCEL,2026-07-11,42,Jesús María,2,Vendedor,18,Terno de ceremonia,Ternos,Facebook,1,680.00,680.00,Vendido
+VENTA,45,71,PV-0045,EXCEL,2026-07-16,33,Pueblo Libre,2,Vendedor,1,Corbata Clasica,Accesorios,Web,3,40.00,120.00,Vendido
+VENTA,46,72,PV-0046,EXCEL,2026-07-20,23,La Molina,3,Vendedor,6,Saco cruzado,Blazers y sacos,Facebook,1,340.00,340.00,Vendido
+VENTA,47,73,PV-0047,EXCEL,2026-07-26,31,La Molina,2,Vendedor,10,Camisa Formal,Camisas,Facebook,1,90.00,90.00,Vendido
+VENTA,48,74,PV-0048,EXCEL,2026-07-31,17,Pueblo Libre,2,Vendedor,21,Vestido de gala satinado,Vestidos,Web,1,423.00,423.00,Vendido
+VENTA,49,75,PV-0049,EXCEL,2026-08-05,35,Comas,2,Vendedor,15,Terno Clasico,Ternos,WhatsApp,1,450.00,450.00,Vendido
+VENTA,49,76,PV-0049,EXCEL,2026-08-05,35,Comas,2,Vendedor,23,Vestido largo plisado,Vestidos,WhatsApp,1,410.00,410.00,Vendido
+VENTA,50,77,PV-0050,EXCEL,2026-08-09,19,Jesús María,2,Vendedor,4,Pañuelo de bolsillo,Accesorios,Web,3,29.00,87.00,Vendido
+VENTA,50,78,PV-0050,EXCEL,2026-08-09,19,Jesús María,2,Vendedor,21,Vestido de gala satinado,Vestidos,Web,1,470.00,470.00,Vendido
+VENTA,51,79,PV-0051,EXCEL,2026-08-13,15,Jesús María,2,Vendedor,19,Terno slim fit,Ternos,Facebook,1,540.00,540.00,Vendido
+VENTA,52,80,PV-0052,EXCEL,2026-08-19,31,La Molina,2,Vendedor,4,Pañuelo de bolsillo,Accesorios,Web,1,27.55,27.55,Vendido
+VENTA,52,81,PV-0052,EXCEL,2026-08-19,31,La Molina,2,Vendedor,6,Saco cruzado,Blazers y sacos,Web,1,306.00,306.00,Vendido
+VENTA,52,82,PV-0052,EXCEL,2026-08-19,31,La Molina,2,Vendedor,13,Terno infantil,Trajes infantiles,Web,1,230.00,230.00,Vendido
+VENTA,53,83,PV-0053,EXCEL,2026-08-25,37,Breña,3,Vendedor,3,Set de gemelos,Accesorios,Instagram,2,71.25,142.50,Vendido
+VENTA,54,84,PV-0054,EXCEL,2026-08-30,26,San Borja,2,Vendedor,16,Terno Ejecutivo,Ternos,Facebook,1,500.00,500.00,Vendido
+VENTA,55,85,PV-0055,EXCEL,2026-09-04,34,Breña,3,Vendedor,24,Vestido de fiesta encaje,Vestidos,Instagram,1,409.50,409.50,Vendido
+VENTA,56,86,PV-0056,EXCEL,2026-09-08,31,La Molina,3,Vendedor,9,Zapato Derby,Calzado,Web,1,229.50,229.50,Vendido
+VENTA,57,87,PV-0057,EXCEL,2026-09-12,37,Breña,3,Vendedor,7,Zapato Oxford de cuero,Calzado,Facebook,1,245.00,245.00,Vendido
+VENTA,57,88,PV-0057,EXCEL,2026-09-12,37,Breña,3,Vendedor,23,Vestido largo plisado,Vestidos,Facebook,1,369.00,369.00,Vendido
+VENTA,58,89,PV-0058,EXCEL,2026-09-16,22,Lince,2,Vendedor,4,Pañuelo de bolsillo,Accesorios,WhatsApp,1,29.00,29.00,Vendido
+VENTA,58,90,PV-0058,EXCEL,2026-09-16,22,Lince,2,Vendedor,11,Camisa cuello italiano,Camisas,WhatsApp,1,114.00,114.00,Vendido
+VENTA,59,91,PV-0059,EXCEL,2026-09-22,38,La Molina,3,Vendedor,4,Pañuelo de bolsillo,Accesorios,Instagram,2,29.00,58.00,Vendido
+VENTA,60,92,PV-0060,EXCEL,2026-09-28,30,Pueblo Libre,2,Vendedor,7,Zapato Oxford de cuero,Calzado,Web,1,245.00,245.00,Vendido
+VENTA,60,93,PV-0060,EXCEL,2026-09-28,30,Pueblo Libre,2,Vendedor,9,Zapato Derby,Calzado,Web,1,255.00,255.00,Vendido
+VENTA,61,94,PV-0061,EXCEL,2026-10-02,4,Lince,3,Vendedor,13,Terno infantil,Trajes infantiles,WhatsApp,1,230.00,230.00,Vendido
+VENTA,61,95,PV-0061,EXCEL,2026-10-02,4,Lince,3,Vendedor,16,Terno Ejecutivo,Ternos,WhatsApp,1,500.00,500.00,Vendido
+VENTA,62,96,PV-0062,EXCEL,2026-10-06,39,Surco,2,Vendedor,1,Corbata Clasica,Accesorios,WhatsApp,3,38.00,114.00,Vendido
+VENTA,62,97,PV-0062,EXCEL,2026-10-06,39,Surco,2,Vendedor,2,Pajarita satinada,Accesorios,WhatsApp,2,35.10,70.20,Vendido
+VENTA,62,98,PV-0062,EXCEL,2026-10-06,39,Surco,2,Vendedor,24,Vestido de fiesta encaje,Vestidos,WhatsApp,1,455.00,455.00,Vendido
+VENTA,63,99,PV-0063,EXCEL,2026-10-09,25,Comas,2,Vendedor,4,Pañuelo de bolsillo,Accesorios,Instagram,1,27.55,27.55,Vendido
+VENTA,64,100,PV-0064,EXCEL,2026-10-13,15,Jesús María,2,Vendedor,3,Set de gemelos,Accesorios,WhatsApp,3,75.00,225.00,Vendido
+VENTA,64,101,PV-0064,EXCEL,2026-10-13,15,Jesús María,2,Vendedor,4,Pañuelo de bolsillo,Accesorios,WhatsApp,2,29.00,58.00,Vendido
+VENTA,64,102,PV-0064,EXCEL,2026-10-13,15,Jesús María,2,Vendedor,16,Terno Ejecutivo,Ternos,WhatsApp,1,500.00,500.00,Vendido
+VENTA,65,103,PV-0065,EXCEL,2026-10-16,12,Los Olivos,2,Vendedor,12,Camisa Oxford,Camisas,Instagram,1,105.00,105.00,Vendido
+VENTA,65,104,PV-0065,EXCEL,2026-10-16,12,Los Olivos,2,Vendedor,13,Terno infantil,Trajes infantiles,Instagram,1,218.50,218.50,Vendido
+VENTA,66,105,PV-0066,EXCEL,2026-10-20,16,San Isidro,3,Vendedor,9,Zapato Derby,Calzado,Facebook,1,242.25,242.25,Vendido
+VENTA,66,106,PV-0066,EXCEL,2026-10-20,16,San Isidro,3,Vendedor,12,Camisa Oxford,Camisas,Facebook,1,105.00,105.00,Vendido
+VENTA,67,107,PV-0067,EXCEL,2026-10-24,12,Los Olivos,2,Vendedor,9,Zapato Derby,Calzado,Instagram,1,229.50,229.50,Vendido
+VENTA,68,108,PV-0068,EXCEL,2026-10-27,1,San Borja,3,Vendedor,18,Terno de ceremonia,Ternos,Facebook,1,680.00,680.00,Vendido
+VENTA,69,109,PV-0069,EXCEL,2026-10-31,24,San Borja,3,Vendedor,11,Camisa cuello italiano,Camisas,Facebook,1,114.00,114.00,Vendido
+VENTA,69,110,PV-0069,EXCEL,2026-10-31,24,San Borja,3,Vendedor,15,Terno Clasico,Ternos,Facebook,1,450.00,450.00,Vendido
+VENTA,69,111,PV-0069,EXCEL,2026-10-31,24,San Borja,3,Vendedor,24,Vestido de fiesta encaje,Vestidos,Facebook,1,455.00,455.00,Vendido
+VENTA,70,112,PV-0070,EXCEL,2026-11-03,15,Jesús María,2,Vendedor,19,Terno slim fit,Ternos,Facebook,1,486.00,486.00,Vendido
+VENTA,70,113,PV-0070,EXCEL,2026-11-03,15,Jesús María,2,Vendedor,24,Vestido de fiesta encaje,Vestidos,Facebook,1,455.00,455.00,Vendido
+VENTA,71,114,PV-0071,EXCEL,2026-11-07,5,San Isidro,2,Vendedor,2,Pajarita satinada,Accesorios,Facebook,1,39.00,39.00,Vendido
+VENTA,72,115,PV-0072,EXCEL,2026-11-10,42,Jesús María,2,Vendedor,20,Vestido Elegante,Vestidos,Web,1,315.00,315.00,Vendido
+VENTA,73,116,PV-0073,EXCEL,2026-11-14,44,San Isidro,2,Vendedor,5,Blazer de lino,Blazers y sacos,WhatsApp,1,280.25,280.25,Vendido
+VENTA,73,117,PV-0073,EXCEL,2026-11-14,44,San Isidro,2,Vendedor,15,Terno Clasico,Ternos,WhatsApp,1,450.00,450.00,Vendido
+VENTA,74,118,PV-0074,EXCEL,2026-11-17,39,Surco,2,Vendedor,15,Terno Clasico,Ternos,WhatsApp,1,450.00,450.00,Vendido
+VENTA,75,119,PV-0082,EXCEL,2026-07-26,31,La Molina,2,Vendedor,10,Camisa Formal,Camisas,Facebook,1,120.00,120.00,Vendido
+VENTA,76,120,1,OLTP,2026-07-07,2,Comas,2,Vendedor,15,Terno Clasico,Ternos,Tienda física,1,450.00,450.00,Vendido
+VENTA,77,121,2,OLTP,2026-07-07,3,Surco,3,Vendedor,16,Terno Ejecutivo,Ternos,Tienda física,1,300.00,300.00,Vendido
+VENTA,78,122,3,OLTP,2026-07-07,4,Lince,2,Vendedor,1,Corbata Clasica,Accesorios,Tienda física,1,53.00,53.00,Vendido
+VENTA,78,123,3,OLTP,2026-07-07,4,Lince,2,Vendedor,10,Camisa Formal,Camisas,Tienda física,2,90.00,180.00,Vendido
+VENTA,78,124,3,OLTP,2026-07-07,4,Lince,2,Vendedor,20,Vestido Elegante,Vestidos,Tienda física,1,350.00,350.00,Vendido
+VENTA,79,125,4,OLTP,2026-07-06,5,San Isidro,3,Vendedor,16,Terno Ejecutivo,Ternos,Tienda física,1,250.00,250.00,Vendido
+ALQUILER,100001,100001,RED-0001,EXCEL,2026-01-05,25,Comas,3,Vendedor,22,Vestido de cóctel,Vestidos,Instagram,1,110.00,110.00,Devuelto
+ALQUILER,100002,100002,RED-0002,EXCEL,2026-01-09,9,Comas,2,Vendedor,22,Vestido de cóctel,Vestidos,Facebook,1,110.00,110.00,Devuelto
+ALQUILER,100003,100003,RED-0003,EXCEL,2026-01-13,35,Comas,2,Vendedor,23,Vestido largo plisado,Vestidos,Instagram,1,135.00,135.00,Devuelto
+ALQUILER,100004,100004,RED-0004,EXCEL,2026-01-17,21,Surco,3,Vendedor,14,Vestido infantil de tul,Trajes infantiles,Instagram,1,55.00,55.00,Devuelto
+ALQUILER,100005,100005,RED-0005,EXCEL,2026-01-22,1,San Borja,2,Vendedor,24,Vestido de fiesta encaje,Vestidos,WhatsApp,1,145.00,145.00,Devuelto
+ALQUILER,100006,100006,RED-0006,EXCEL,2026-01-25,13,Miraflores,2,Vendedor,13,Terno infantil,Trajes infantiles,Instagram,1,65.00,65.00,Devuelto
+ALQUILER,100007,100007,RED-0007,EXCEL,2026-01-30,23,La Molina,2,Vendedor,11,Camisa cuello italiano,Camisas,WhatsApp,1,32.00,32.00,Devuelto
+ALQUILER,100007,100008,RED-0007,EXCEL,2026-01-30,23,La Molina,2,Vendedor,19,Terno slim fit,Ternos,WhatsApp,1,165.00,165.00,Devuelto
+ALQUILER,100008,100009,RED-0008,EXCEL,2026-02-04,2,Comas,3,Vendedor,15,Terno Clasico,Ternos,Web,1,150.00,150.00,Devuelto
+ALQUILER,100009,100010,RED-0009,EXCEL,2026-02-07,7,Comas,3,Vendedor,18,Terno de ceremonia,Ternos,Instagram,1,200.00,200.00,Devuelto
+ALQUILER,100010,100011,RED-0010,EXCEL,2026-02-12,38,La Molina,2,Vendedor,24,Vestido de fiesta encaje,Vestidos,Instagram,1,145.00,145.00,Devuelto
+ALQUILER,100011,100012,RED-0011,EXCEL,2026-02-15,9,Comas,2,Vendedor,2,Pajarita satinada,Accesorios,Instagram,1,8.00,8.00,Vencido
+ALQUILER,100011,100013,RED-0011,EXCEL,2026-02-15,9,Comas,2,Vendedor,15,Terno Clasico,Ternos,Instagram,1,150.00,150.00,Vencido
+ALQUILER,100012,100014,RED-0012,EXCEL,2026-02-18,34,Breña,2,Vendedor,10,Camisa Formal,Camisas,Facebook,1,30.00,30.00,Devuelto
+ALQUILER,100012,100015,RED-0012,EXCEL,2026-02-18,34,Breña,2,Vendedor,16,Terno Ejecutivo,Ternos,Facebook,1,170.00,170.00,Devuelto
+ALQUILER,100013,100016,RED-0013,EXCEL,2026-02-22,12,Los Olivos,3,Vendedor,1,Corbata Clasica,Accesorios,Facebook,1,10.00,10.00,Devuelto
+ALQUILER,100013,100017,RED-0013,EXCEL,2026-02-22,12,Los Olivos,3,Vendedor,6,Saco cruzado,Blazers y sacos,Facebook,1,90.00,90.00,Devuelto
+ALQUILER,100014,100018,RED-0014,EXCEL,2026-02-26,43,Comas,2,Vendedor,5,Blazer de lino,Blazers y sacos,Instagram,1,75.00,75.00,Devuelto
+ALQUILER,100015,100019,RED-0015,EXCEL,2026-03-03,13,Miraflores,3,Vendedor,17,Terno tres piezas,Ternos,Facebook,1,190.00,190.00,Devuelto
+ALQUILER,100016,100020,RED-0016,EXCEL,2026-03-06,31,La Molina,3,Vendedor,2,Pajarita satinada,Accesorios,WhatsApp,1,8.00,8.00,Devuelto
+ALQUILER,100016,100021,RED-0016,EXCEL,2026-03-06,31,La Molina,3,Vendedor,18,Terno de ceremonia,Ternos,WhatsApp,1,200.00,200.00,Devuelto
+ALQUILER,100017,100022,RED-0017,EXCEL,2026-03-10,33,Pueblo Libre,3,Vendedor,13,Terno infantil,Trajes infantiles,Web,1,65.00,65.00,Devuelto
+ALQUILER,100018,100023,RED-0018,EXCEL,2026-03-14,16,San Isidro,2,Vendedor,16,Terno Ejecutivo,Ternos,WhatsApp,1,170.00,170.00,Devuelto
+ALQUILER,100019,100024,RED-0019,EXCEL,2026-03-19,4,Lince,2,Vendedor,10,Camisa Formal,Camisas,Instagram,1,30.00,30.00,Devuelto
+ALQUILER,100019,100025,RED-0019,EXCEL,2026-03-19,4,Lince,2,Vendedor,19,Terno slim fit,Ternos,Instagram,1,165.00,165.00,Devuelto
+ALQUILER,100020,100026,RED-0020,EXCEL,2026-03-23,6,San Borja,3,Vendedor,1,Corbata Clasica,Accesorios,WhatsApp,1,10.00,10.00,Vencido
+ALQUILER,100020,100027,RED-0020,EXCEL,2026-03-23,6,San Borja,3,Vendedor,18,Terno de ceremonia,Ternos,WhatsApp,1,200.00,200.00,Devuelto
+ALQUILER,100021,100028,RED-0021,EXCEL,2026-03-27,2,Comas,3,Vendedor,22,Vestido de cóctel,Vestidos,Facebook,1,110.00,110.00,Devuelto
+ALQUILER,100022,100029,RED-0022,EXCEL,2026-03-31,20,Breña,3,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,90.00,90.00,Devuelto
+ALQUILER,100023,100030,RED-0023,EXCEL,2026-04-05,32,Los Olivos,2,Vendedor,21,Vestido de gala satinado,Vestidos,WhatsApp,1,150.00,150.00,Devuelto
+ALQUILER,100024,100031,RED-0024,EXCEL,2026-04-07,13,Miraflores,2,Vendedor,1,Corbata Clasica,Accesorios,Instagram,1,10.00,10.00,Devuelto
+ALQUILER,100024,100032,RED-0024,EXCEL,2026-04-07,13,Miraflores,2,Vendedor,17,Terno tres piezas,Ternos,Instagram,1,190.00,190.00,Devuelto
+ALQUILER,100025,100033,RED-0025,EXCEL,2026-04-10,43,Comas,2,Vendedor,19,Terno slim fit,Ternos,Instagram,1,165.00,165.00,Devuelto
+ALQUILER,100026,100034,RED-0026,EXCEL,2026-04-13,4,Lince,3,Vendedor,20,Vestido Elegante,Vestidos,Web,1,120.00,120.00,Devuelto
+ALQUILER,100027,100035,RED-0027,EXCEL,2026-04-17,36,Comas,3,Vendedor,19,Terno slim fit,Ternos,WhatsApp,1,165.00,165.00,Devuelto
+ALQUILER,100028,100036,RED-0028,EXCEL,2026-04-19,40,Chorrillos,2,Vendedor,13,Terno infantil,Trajes infantiles,WhatsApp,1,65.00,65.00,Devuelto
+ALQUILER,100029,100037,RED-0029,EXCEL,2026-04-21,33,Pueblo Libre,3,Vendedor,22,Vestido de cóctel,Vestidos,Instagram,1,110.00,110.00,Devuelto
+ALQUILER,100030,100038,RED-0030,EXCEL,2026-04-24,2,Comas,2,Vendedor,2,Pajarita satinada,Accesorios,Instagram,1,8.00,8.00,Devuelto
+ALQUILER,100030,100039,RED-0030,EXCEL,2026-04-24,2,Comas,2,Vendedor,16,Terno Ejecutivo,Ternos,Instagram,1,170.00,170.00,Devuelto
+ALQUILER,100031,100040,RED-0031,EXCEL,2026-04-27,13,Miraflores,2,Vendedor,4,Pañuelo de bolsillo,Accesorios,Instagram,1,6.00,6.00,Devuelto
+ALQUILER,100031,100041,RED-0031,EXCEL,2026-04-27,13,Miraflores,2,Vendedor,6,Saco cruzado,Blazers y sacos,Instagram,1,90.00,90.00,Vencido
+ALQUILER,100032,100042,RED-0032,EXCEL,2026-05-01,38,La Molina,2,Vendedor,20,Vestido Elegante,Vestidos,Instagram,1,120.00,120.00,Devuelto
+ALQUILER,100033,100043,RED-0033,EXCEL,2026-05-05,22,Lince,3,Vendedor,17,Terno tres piezas,Ternos,WhatsApp,1,190.00,190.00,Devuelto
+ALQUILER,100034,100044,RED-0034,EXCEL,2026-05-09,21,Surco,3,Vendedor,15,Terno Clasico,Ternos,Web,1,150.00,150.00,Devuelto
+ALQUILER,100035,100045,RED-0035,EXCEL,2026-05-12,43,Comas,3,Vendedor,21,Vestido de gala satinado,Vestidos,Instagram,1,150.00,150.00,Devuelto
+ALQUILER,100036,100046,RED-0036,EXCEL,2026-05-15,29,Magdalena,3,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,90.00,90.00,Devuelto
+ALQUILER,100036,100047,RED-0036,EXCEL,2026-05-15,29,Magdalena,3,Vendedor,12,Camisa Oxford,Camisas,WhatsApp,1,28.00,28.00,Devuelto
+ALQUILER,100037,100048,RED-0037,EXCEL,2026-05-17,27,Jesús María,3,Vendedor,21,Vestido de gala satinado,Vestidos,Instagram,1,150.00,150.00,Devuelto
+ALQUILER,100038,100049,RED-0038,EXCEL,2026-05-19,10,Comas,2,Vendedor,4,Pañuelo de bolsillo,Accesorios,WhatsApp,1,6.00,6.00,Vencido
+ALQUILER,100038,100050,RED-0038,EXCEL,2026-05-19,10,Comas,2,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,90.00,90.00,Vencido
+ALQUILER,100039,100051,RED-0039,EXCEL,2026-05-21,42,Jesús María,2,Vendedor,14,Vestido infantil de tul,Trajes infantiles,WhatsApp,1,55.00,55.00,Devuelto
+ALQUILER,100040,100052,RED-0040,EXCEL,2026-05-24,31,La Molina,2,Vendedor,19,Terno slim fit,Ternos,WhatsApp,1,165.00,165.00,Devuelto
+ALQUILER,100041,100053,RED-0041,EXCEL,2026-05-28,16,San Isidro,2,Vendedor,24,Vestido de fiesta encaje,Vestidos,Web,1,145.00,145.00,Devuelto
+ALQUILER,100042,100054,RED-0042,EXCEL,2026-05-31,2,Comas,2,Vendedor,5,Blazer de lino,Blazers y sacos,WhatsApp,1,75.00,75.00,Vencido
+ALQUILER,100042,100055,RED-0042,EXCEL,2026-05-31,2,Comas,2,Vendedor,10,Camisa Formal,Camisas,WhatsApp,1,30.00,30.00,Vencido
+ALQUILER,100043,100056,RED-0043,EXCEL,2026-06-04,24,San Borja,3,Vendedor,15,Terno Clasico,Ternos,Instagram,1,150.00,150.00,Devuelto
+ALQUILER,100044,100057,RED-0044,EXCEL,2026-06-07,28,Chorrillos,2,Vendedor,24,Vestido de fiesta encaje,Vestidos,Instagram,1,145.00,145.00,Devuelto
+ALQUILER,100045,100058,RED-0045,EXCEL,2026-06-10,39,Surco,3,Vendedor,16,Terno Ejecutivo,Ternos,Facebook,1,170.00,170.00,Devuelto
+ALQUILER,100046,100059,RED-0046,EXCEL,2026-06-13,29,Magdalena,2,Vendedor,18,Terno de ceremonia,Ternos,Instagram,1,200.00,200.00,Devuelto
+ALQUILER,100047,100060,RED-0047,EXCEL,2026-06-18,43,Comas,2,Vendedor,20,Vestido Elegante,Vestidos,WhatsApp,1,120.00,120.00,Vencido
+ALQUILER,100048,100061,RED-0048,EXCEL,2026-06-22,2,Comas,3,Vendedor,15,Terno Clasico,Ternos,Instagram,1,150.00,150.00,Vencido
+ALQUILER,100049,100062,RED-0049,EXCEL,2026-06-25,25,Comas,3,Vendedor,3,Set de gemelos,Accesorios,WhatsApp,1,15.00,15.00,Devuelto
+ALQUILER,100049,100063,RED-0049,EXCEL,2026-06-25,25,Comas,3,Vendedor,16,Terno Ejecutivo,Ternos,WhatsApp,1,170.00,170.00,Devuelto
+ALQUILER,100050,100064,RED-0050,EXCEL,2026-06-29,12,Los Olivos,3,Vendedor,17,Terno tres piezas,Ternos,WhatsApp,1,190.00,190.00,Devuelto
+ALQUILER,100051,100065,RED-0051,EXCEL,2026-07-03,38,La Molina,3,Vendedor,14,Vestido infantil de tul,Trajes infantiles,Web,1,55.00,55.00,Devuelto
+ALQUILER,100052,100066,RED-0052,EXCEL,2026-07-08,41,San Borja,3,Vendedor,3,Set de gemelos,Accesorios,Web,1,15.00,15.00,Devuelto
+ALQUILER,100052,100067,RED-0052,EXCEL,2026-07-08,41,San Borja,3,Vendedor,6,Saco cruzado,Blazers y sacos,Web,1,90.00,90.00,Devuelto
+ALQUILER,100053,100068,RED-0053,EXCEL,2026-07-12,30,Pueblo Libre,2,Vendedor,23,Vestido largo plisado,Vestidos,Web,1,135.00,135.00,Devuelto
+ALQUILER,100054,100069,RED-0054,EXCEL,2026-07-15,35,Comas,2,Vendedor,20,Vestido Elegante,Vestidos,Instagram,1,120.00,120.00,Vencido
+ALQUILER,100055,100070,RED-0055,EXCEL,2026-07-18,3,Surco,2,Vendedor,11,Camisa cuello italiano,Camisas,Web,1,32.00,32.00,Devuelto
+ALQUILER,100055,100071,RED-0055,EXCEL,2026-07-18,3,Surco,2,Vendedor,17,Terno tres piezas,Ternos,Web,1,190.00,190.00,Devuelto
+ALQUILER,100056,100072,RED-0056,EXCEL,2026-07-21,18,Miraflores,3,Vendedor,6,Saco cruzado,Blazers y sacos,Instagram,1,90.00,90.00,Vencido
+ALQUILER,100057,100073,RED-0057,EXCEL,2026-07-24,30,Pueblo Libre,2,Vendedor,21,Vestido de gala satinado,Vestidos,WhatsApp,1,150.00,150.00,Devuelto
+ALQUILER,100058,100074,RED-0058,EXCEL,2026-07-28,22,Lince,2,Vendedor,13,Terno infantil,Trajes infantiles,Web,1,65.00,65.00,Devuelto
+ALQUILER,100059,100075,RED-0059,EXCEL,2026-07-31,12,Los Olivos,2,Vendedor,22,Vestido de cóctel,Vestidos,WhatsApp,1,110.00,110.00,Devuelto
+ALQUILER,100060,100076,RED-0060,EXCEL,2026-08-04,24,San Borja,3,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,90.00,90.00,Devuelto
+ALQUILER,100060,100077,RED-0060,EXCEL,2026-08-04,24,San Borja,3,Vendedor,10,Camisa Formal,Camisas,WhatsApp,1,30.00,30.00,Devuelto
+ALQUILER,100061,100078,RED-0061,EXCEL,2026-08-07,1,San Borja,2,Vendedor,6,Saco cruzado,Blazers y sacos,Web,1,90.00,90.00,Devuelto
+ALQUILER,100062,100079,RED-0062,EXCEL,2026-08-12,26,San Borja,3,Vendedor,3,Set de gemelos,Accesorios,WhatsApp,1,15.00,15.00,Devuelto
+ALQUILER,100062,100080,RED-0062,EXCEL,2026-08-12,26,San Borja,3,Vendedor,17,Terno tres piezas,Ternos,WhatsApp,1,190.00,190.00,Devuelto
+ALQUILER,100063,100081,RED-0063,EXCEL,2026-08-17,11,San Isidro,3,Vendedor,13,Terno infantil,Trajes infantiles,Instagram,1,65.00,65.00,Devuelto
+ALQUILER,100064,100082,RED-0064,EXCEL,2026-08-21,30,Pueblo Libre,2,Vendedor,13,Terno infantil,Trajes infantiles,Web,1,65.00,65.00,Devuelto
+ALQUILER,100065,100083,RED-0065,EXCEL,2026-08-26,26,San Borja,2,Vendedor,5,Blazer de lino,Blazers y sacos,WhatsApp,1,75.00,75.00,Devuelto
+ALQUILER,100065,100084,RED-0065,EXCEL,2026-08-26,26,San Borja,2,Vendedor,10,Camisa Formal,Camisas,WhatsApp,1,30.00,30.00,Devuelto
+ALQUILER,100066,100085,RED-0066,EXCEL,2026-08-29,9,Comas,3,Vendedor,11,Camisa cuello italiano,Camisas,Instagram,1,32.00,32.00,Devuelto
+ALQUILER,100066,100086,RED-0066,EXCEL,2026-08-29,9,Comas,3,Vendedor,19,Terno slim fit,Ternos,Instagram,1,165.00,165.00,Devuelto
+ALQUILER,100067,100087,RED-0067,EXCEL,2026-09-01,25,Comas,2,Vendedor,21,Vestido de gala satinado,Vestidos,Instagram,1,150.00,150.00,Devuelto
+ALQUILER,100068,100088,RED-0068,EXCEL,2026-09-04,10,Comas,2,Vendedor,14,Vestido infantil de tul,Trajes infantiles,WhatsApp,1,55.00,55.00,Devuelto
+ALQUILER,100069,100089,RED-0069,EXCEL,2026-09-08,12,Los Olivos,3,Vendedor,21,Vestido de gala satinado,Vestidos,WhatsApp,1,150.00,150.00,Devuelto
+ALQUILER,100070,100090,RED-0070,EXCEL,2026-09-11,14,Pueblo Libre,2,Vendedor,21,Vestido de gala satinado,Vestidos,WhatsApp,1,150.00,150.00,Devuelto
+ALQUILER,100071,100091,RED-0071,EXCEL,2026-09-14,27,Jesús María,2,Vendedor,13,Terno infantil,Trajes infantiles,Facebook,1,65.00,65.00,Devuelto
+ALQUILER,100072,100092,RED-0072,EXCEL,2026-09-19,11,San Isidro,3,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,90.00,90.00,Devuelto
+ALQUILER,100073,100093,RED-0073,EXCEL,2026-09-22,37,Breña,2,Vendedor,21,Vestido de gala satinado,Vestidos,Instagram,1,150.00,150.00,Devuelto
+ALQUILER,100074,100094,RED-0074,EXCEL,2026-09-25,24,San Borja,3,Vendedor,22,Vestido de cóctel,Vestidos,Web,1,110.00,110.00,Devuelto
+ALQUILER,100075,100095,RED-0075,EXCEL,2026-09-29,10,Comas,3,Vendedor,21,Vestido de gala satinado,Vestidos,WhatsApp,1,150.00,150.00,Vencido
+ALQUILER,100076,100096,RED-0076,EXCEL,2026-10-02,26,San Borja,3,Vendedor,24,Vestido de fiesta encaje,Vestidos,WhatsApp,1,145.00,145.00,Devuelto
+ALQUILER,100077,100097,RED-0077,EXCEL,2026-10-06,5,San Isidro,3,Vendedor,6,Saco cruzado,Blazers y sacos,WhatsApp,1,90.00,90.00,Devuelto
+ALQUILER,100077,100098,RED-0077,EXCEL,2026-10-06,5,San Isidro,3,Vendedor,12,Camisa Oxford,Camisas,WhatsApp,1,28.00,28.00,Devuelto
+ALQUILER,100078,100099,RED-0078,EXCEL,2026-10-08,7,Comas,3,Vendedor,23,Vestido largo plisado,Vestidos,Web,1,135.00,135.00,Devuelto
+ALQUILER,100079,100100,RED-0079,EXCEL,2026-10-11,16,San Isidro,2,Vendedor,23,Vestido largo plisado,Vestidos,Instagram,1,135.00,135.00,Devuelto
+ALQUILER,100080,100101,RED-0080,EXCEL,2026-10-15,1,San Borja,3,Vendedor,23,Vestido largo plisado,Vestidos,WhatsApp,1,135.00,135.00,Devuelto
+ALQUILER,100081,100102,RED-0081,EXCEL,2026-10-17,20,Breña,2,Vendedor,17,Terno tres piezas,Ternos,Instagram,1,190.00,190.00,Devuelto
+ALQUILER,100082,100103,RED-0082,EXCEL,2026-10-19,3,Surco,3,Vendedor,22,Vestido de cóctel,Vestidos,Instagram,1,110.00,110.00,Devuelto
+ALQUILER,100083,100104,RED-0083,EXCEL,2026-10-23,30,Pueblo Libre,3,Vendedor,5,Blazer de lino,Blazers y sacos,Facebook,1,75.00,75.00,Vencido
+ALQUILER,100083,100105,RED-0083,EXCEL,2026-10-23,30,Pueblo Libre,3,Vendedor,10,Camisa Formal,Camisas,Facebook,1,30.00,30.00,Vencido
+ALQUILER,100084,100106,RED-0084,EXCEL,2026-10-27,30,Pueblo Libre,3,Vendedor,24,Vestido de fiesta encaje,Vestidos,WhatsApp,1,145.00,145.00,Devuelto
+ALQUILER,100085,100107,RED-0085,EXCEL,2026-10-30,26,San Borja,2,Vendedor,4,Pañuelo de bolsillo,Accesorios,WhatsApp,1,6.00,6.00,Devuelto
+ALQUILER,100085,100108,RED-0085,EXCEL,2026-10-30,26,San Borja,2,Vendedor,15,Terno Clasico,Ternos,WhatsApp,1,150.00,150.00,Devuelto
+ALQUILER,100086,100109,RED-0086,EXCEL,2026-11-02,11,San Isidro,2,Vendedor,4,Pañuelo de bolsillo,Accesorios,WhatsApp,1,6.00,6.00,Devuelto
+ALQUILER,100086,100110,RED-0086,EXCEL,2026-11-02,11,San Isidro,2,Vendedor,5,Blazer de lino,Blazers y sacos,WhatsApp,1,75.00,75.00,Devuelto
+ALQUILER,100087,100111,RED-0087,EXCEL,2026-11-06,8,Los Olivos,3,Vendedor,13,Terno infantil,Trajes infantiles,Instagram,1,65.00,65.00,Devuelto
+ALQUILER,100088,100112,RED-0088,EXCEL,2026-11-10,8,Los Olivos,2,Vendedor,20,Vestido Elegante,Vestidos,Instagram,1,120.00,120.00,Devuelto
+ALQUILER,100089,100113,RED-0089,EXCEL,2026-11-14,1,San Borja,2,Vendedor,11,Camisa cuello italiano,Camisas,WhatsApp,1,32.00,32.00,Vencido
+ALQUILER,100089,100114,RED-0089,EXCEL,2026-11-14,1,San Borja,2,Vendedor,16,Terno Ejecutivo,Ternos,WhatsApp,1,170.00,170.00,Vencido
+ALQUILER,100090,100115,1,OLTP,2026-07-01,2,Comas,2,Vendedor,15,Terno Clasico,Ternos,Tienda física,1,200.00,200.00,Devuelto
+ALQUILER,100091,100116,10,OLTP,2026-07-10,6,San Borja,3,Vendedor,16,Terno Ejecutivo,Ternos,Tienda física,1,190.00,190.00,Devuelto
+ALQUILER,100092,100117,11,OLTP,2026-07-11,2,Comas,2,Vendedor,15,Terno Clasico,Ternos,Tienda física,1,310.00,310.00,Vencido
+ALQUILER,100093,100118,2,OLTP,2026-07-02,3,Surco,3,Vendedor,16,Terno Ejecutivo,Ternos,Tienda física,1,188.00,188.00,Devuelto
+ALQUILER,100094,100119,3,OLTP,2026-07-03,4,Lince,2,Vendedor,20,Vestido Elegante,Vestidos,Tienda física,1,225.00,225.00,Devuelto
+ALQUILER,100095,100120,4,OLTP,2026-07-04,5,San Isidro,3,Vendedor,15,Terno Clasico,Ternos,Tienda física,1,150.00,150.00,Devuelto
+ALQUILER,100096,100121,5,OLTP,2026-07-05,6,San Borja,2,Vendedor,16,Terno Ejecutivo,Ternos,Tienda física,1,175.00,175.00,Devuelto
+ALQUILER,100097,100122,6,OLTP,2026-07-06,2,Comas,3,Vendedor,15,Terno Clasico,Ternos,Tienda física,1,210.00,210.00,Devuelto
+ALQUILER,100098,100123,7,OLTP,2026-07-07,4,Lince,2,Vendedor,20,Vestido Elegante,Vestidos,Tienda física,1,225.00,225.00,Devuelto
+ALQUILER,100099,100124,8,OLTP,2026-07-08,3,Surco,3,Vendedor,16,Terno Ejecutivo,Ternos,Tienda física,1,188.00,188.00,Devuelto
+ALQUILER,100100,100125,9,OLTP,2026-07-09,5,San Isidro,2,Vendedor,15,Terno Clasico,Ternos,Tienda física,1,160.00,160.00,Devuelto
