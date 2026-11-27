@@ -8,6 +8,7 @@ El paso a paso con capturas está en **Procedimiento de replicación ETL.pdf**.
 
 - SQL Server 2025 Developer y SQL Server Management Studio 22
 - Microsoft Access Database Engine 2016 (64 bits), para que SQL Server pueda leer el Excel
+- El repositorio descomprimido en `C:\ModaEstilo_BI-main`, con el permiso de `icacls` (ver el [README principal](../README.md))
 - El Excel debe estar **cerrado** al ejecutar los scripts. Si está abierto, sale el error 7303.
 
 ## Contenido
@@ -24,19 +25,15 @@ El paso a paso con capturas está en **Procedimiento de replicación ETL.pdf**.
 
 ## Pasos
 
-1. Descarga la carpeta `ETL` y déjala, por ejemplo, en `C:\ModaEstilo\ETL`.
-2. Abre PowerShell **como administrador** y dale permiso de lectura a SQL Server sobre la carpeta del Excel (un solo comando, en una línea):
+En SSMS, abre cada script con **Archivo → Abrir → Archivo…** y ejecútalo con **F5**, en este orden:
 
-   ```
-   icacls "C:\ModaEstilo\ETL\1_Fuentes_Excel" /grant "NT Service\MSSQLSERVER:(OI)(CI)RX"
-   ```
+1. `00_crear_oltp_ModaEstilo_Final.sql`
+2. `01_preparacion.sql`
+3. `02_extraccion.sql`
+4. `03_transformacion.sql`
+5. `04_carga.sql`
 
-3. En SSMS abre y ejecuta (F5) `00_crear_oltp_ModaEstilo_Final.sql`.
-4. Abre `01_preparacion.sql` y `02_extraccion.sql`, cambia la ruta del Excel por la tuya y ejecútalos (F5):
-   - `01_preparacion.sql`, línea 20: `Database=C:\...\1_Fuentes_Excel\Fuentes_ModaEstilo.xlsx`
-   - `02_extraccion.sql`, línea 83: `DECLARE @Archivo ... = N'C:\...\1_Fuentes_Excel\Fuentes_ModaEstilo.xlsx'`
-5. Ejecuta `03_transformacion.sql`.
-6. Ejecuta `04_carga.sql`.
+Si descomprimiste el repositorio en otra carpeta, cambia la ruta del Excel en `01_preparacion.sql` (línea 20) y en `02_extraccion.sql` (línea 83).
 
 Si solo necesitas el modelo estrella para Power BI, basta con ejecutar `05_OLAP_ModaEstilo_DW.sql`.
 

@@ -6,7 +6,7 @@ Usa una base aparte, `ModaEstilo_Experimento`, y no toca `ModaEstilo_DW`.
 
 ## Requisitos
 
-- Haber hecho los pasos 1 a 4 de la carpeta [`ETL`](../../ETL): permiso de la carpeta, base `ModaEstilo_Final` y `01_preparacion.sql`
+- Haber ejecutado `00_crear_oltp_ModaEstilo_Final.sql` y `01_preparacion.sql` de la carpeta [`ETL`](../../ETL)
 - Todos los Excel **cerrados**
 
 ## Contenido
@@ -20,21 +20,11 @@ Usa una base aparte, `ModaEstilo_Experimento`, y no toca `ModaEstilo_DW`.
 
 ## Pasos
 
-1. Descarga esta carpeta, por ejemplo en `C:\ModaEstilo\EXP-BI-07_Volumen_ETL`.
-2. En PowerShell **como administrador**, dale permiso a SQL Server sobre la carpeta `Volumenes` (una sola línea):
+1. Descomprime el repositorio en `C:\ModaEstilo_BI-main` y dale el permiso de `icacls` (ver el [README principal](../../README.md)).
+2. En SSMS abre y ejecuta (F5) `06_experimento_preparar.sql`.
+3. Abre y ejecuta `07_experimento_ejecutar.sql`. Tarda unos 5 minutos y muestra 2 tablas: el detalle de las 12 corridas y el resumen por volumen.
 
-   ```
-   icacls "C:\ModaEstilo\EXP-BI-07_Volumen_ETL\Volumenes" /grant "NT Service\MSSQLSERVER:(OI)(CI)RX"
-   ```
-
-3. En SSMS abre y ejecuta (F5) `06_experimento_preparar.sql`.
-4. Abre `07_experimento_ejecutar.sql` y cambia la ruta de la línea 11 por la tuya (debe terminar en `\`):
-
-   ```
-   DECLARE @carpeta NVARCHAR(300) = N'C:\ModaEstilo\EXP-BI-07_Volumen_ETL\Volumenes\';
-   ```
-
-5. Ejecuta `07_experimento_ejecutar.sql`. Tarda unos 5 minutos y muestra 2 tablas: el detalle de las 12 corridas y el resumen por volumen.
+Si descomprimiste el repositorio en otra carpeta, cambia la ruta de la línea 11 de `07_experimento_ejecutar.sql` (debe terminar en `\`).
 
 Para crear los Excel otra vez (opcional):
 

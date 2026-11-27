@@ -8,15 +8,16 @@ Notebook de PySpark con los datos de `ModaEstilo_DW`. Lee los CSV en DataFrames,
 |---|---|
 | `datos/modaestilo_hechos.csv` | 250 filas: 125 líneas de venta y 125 de alquiler (18 columnas, sin datos personales) |
 | `datos/modaestilo_devoluciones.csv` | 107 devoluciones con tipo de falla, gravedad y cargo |
-| `BigData_ModaEstilo.py` | Notebook de Databricks |
+| `BigData_ModaEstilo.ipynb` | Notebook de Databricks |
+| `exportar_csv_desde_DW.sql` | Consultas con las que se generaron los CSV desde ModaEstilo_DW (no hace falta ejecutarlo: los CSV ya están en `datos`) |
 
 ## Pasos en Databricks Free Edition
 
-1. Descarga esta carpeta.
+1. Descomprime el repositorio en `C:\ModaEstilo_BI-main` (ver el [README principal](../../README.md)).
 2. En Databricks entra a **Catalog**, luego a **workspace**, y haz clic en **Create → Create schema**. Ponle el nombre `moda`.
 3. Dentro de `moda`, haz clic en **Create → Create volume**. Ponle el nombre `datos` y elige el tipo **Managed**.
-4. Entra al volumen `datos`, haz clic en **Upload to this volume** y sube los 2 CSV de la carpeta `datos`.
-5. Ve a **Workspace**, abre tu carpeta y haz clic en **⋮ → Import**. Sube `BigData_ModaEstilo.py`; se abre como notebook.
+4. Entra al volumen `datos`, haz clic en **Upload to this volume** y sube los 2 CSV de `C:\ModaEstilo_BI-main\BigData\Solucion_ModaEstilo\datos`.
+5. Ve a **Workspace**, abre tu carpeta y haz clic en **⋮ → Import**. Sube `BigData_ModaEstilo.ipynb`; se abre como notebook.
 6. Conecta el notebook a **Serverless** y haz clic en **Run all**.
 
 ## Resultado esperado

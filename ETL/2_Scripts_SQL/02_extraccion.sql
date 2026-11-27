@@ -80,7 +80,7 @@ END;
 GO
 
 /* ---------- Excel ---------- */
-DECLARE @Archivo NVARCHAR(400) = N'C:\Users\Gian Franco David\Documents\Proceso ETL\1_Fuentes_Excel\Fuentes_ModaEstilo.xlsx';
+DECLARE @Archivo NVARCHAR(400) = N'C:\ModaEstilo_BI-main\ETL\1_Fuentes_Excel\Fuentes_ModaEstilo.xlsx';
 
 EXEC etl.usp_LeerHoja @Archivo, N'Catalogo', N'raw_catalogo',
      N'Código|Nombre|Categoría|Talla|Color|Costo Compra|Precio Alquiler|Precio Venta|Stock|Stock Mínimo';

@@ -2,6 +2,17 @@
 
 Solución de Inteligencia de Negocios y Big Data para ModaEstilo, una tienda de venta y alquiler de ropa formal.
 
+## Descarga
+
+1. Haz clic en el botón verde **Code → Download ZIP**.
+2. Haz clic derecho en `ModaEstilo_BI-main.zip` → **Extraer todo…**, escribe `C:\` como destino y haz clic en **Extraer**.
+3. Queda la carpeta `C:\ModaEstilo_BI-main`. Los scripts ya traen esa ruta, así que no hay que cambiar nada.
+4. En PowerShell **como administrador**, dale permiso de lectura a SQL Server sobre esa carpeta (una sola línea):
+
+   ```
+   icacls "C:\ModaEstilo_BI-main" /grant "NT Service\MSSQLSERVER:(OI)(CI)RX" /T
+   ```
+
 ## Cómo replicar
 
 | Qué | Carpeta | Herramienta |

@@ -8,7 +8,7 @@ USE ModaEstilo_Experimento;
 GO
 SET NOCOUNT ON;
 TRUNCATE TABLE exp.Resultado;
-DECLARE @carpeta NVARCHAR(300) = N'C:\Users\Gian Franco David\Documents\Proceso ETL\1_Fuentes_Excel\Volumenes\';
+DECLARE @carpeta NVARCHAR(300) = N'C:\ModaEstilo_BI-main\BI\EXP-BI-07_Volumen_ETL\Volumenes\';
 DECLARE @vol TABLE (n INT); INSERT INTO @vol VALUES (100), (500), (10000), (100000);
 DECLARE @n INT, @rep INT, @archivo NVARCHAR(400);
 DECLARE c CURSOR LOCAL FAST_FORWARD FOR SELECT n FROM @vol ORDER BY n;

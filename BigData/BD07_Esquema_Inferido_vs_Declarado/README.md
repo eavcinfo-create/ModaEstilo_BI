@@ -8,7 +8,7 @@ Lee el mismo CSV con `inferSchema` y con un esquema declarado (`StructType`), co
 
 ## Pasos
 
-1. Ve a **Workspace**, haz clic en **⋮ → Import** y sube `Experimento_BD_Esquema.py`.
+1. Ve a **Workspace**, haz clic en **⋮ → Import** y sube `Experimento_BD_Esquema.ipynb` (está en `C:\ModaEstilo_BI-main\BigData\BD07_Esquema_Inferido_vs_Declarado`).
 2. Conecta el notebook a **Serverless**.
 3. Ejecuta las celdas en orden (Shift + Enter):
    - **1. Configuración**: muestra la versión de Spark y las filas base (250).

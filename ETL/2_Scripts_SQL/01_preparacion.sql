@@ -17,5 +17,5 @@ GO
 -- Prueba: leer las primeras filas de la hoja Ventas
 SELECT TOP (5) *
 FROM OPENROWSET('Microsoft.ACE.OLEDB.16.0',
-     'Excel 12.0 Xml;HDR=YES;IMEX=1;Database=C:\Users\Gian Franco David\Documents\Proceso ETL\1_Fuentes_Excel\Fuentes_ModaEstilo.xlsx',
+     'Excel 12.0 Xml;HDR=YES;IMEX=1;Database=C:\ModaEstilo_BI-main\ETL\1_Fuentes_Excel\Fuentes_ModaEstilo.xlsx',
      'SELECT * FROM [Ventas$]');
