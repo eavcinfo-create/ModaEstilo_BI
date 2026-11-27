@@ -1,6 +1,6 @@
 # EXP-12 (BD-07): esquema inferido frente a esquema declarado
 
-Lee el mismo CSV con `inferSchema` y con un esquema declarado (`StructType`), con 100, 500, 10 000, 100 000, 1 000 000, 5 000 000 y 10 000 000 de filas. Mide el tiempo de lectura y cálculo, y compara el tipo de dato y el total de importes que se obtiene con cada forma.
+Lee el mismo CSV con `inferSchema` y con un esquema declarado (`StructType`) en escalas crecientes a partir de la línea base (250 filas reales de ModaEstilo_DW), con 100, 500, 10 000, 100 000, 1 000 000, 5 000 000 y 10 000 000 de filas. Mide el tiempo de lectura y cálculo, y compara el tipo de dato y el total de importes que se obtiene con cada forma.
 
 ## Requisitos
 
@@ -22,5 +22,7 @@ Lee el mismo CSV con `inferSchema` y con un esquema declarado (`StructType`), co
 ## Qué comparar
 
 - El tiempo (`inferido_s` frente a `declarado_s`) en cada volumen
+- Las filas por segundo (`filas_s_inferido` y `filas_s_declarado`) al crecer el volumen
+- Los registros procesados (`filas_leidas`, igual a `filas`) y la consistencia del total: `total_esperado` sale de la línea base (250 filas) multiplicada por la escala, y `consistente` debe decir **Sí** en todas las escalas
 - El tipo de `fecha`, `id_detalle` e `importe` con `inferSchema`, frente a `date`, `bigint` y `decimal(12,2)` con `StructType`
 - `total_inferido` frente a `total_declarado` y su diferencia (`diferencia_total`)
