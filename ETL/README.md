@@ -22,6 +22,7 @@ El paso a paso con capturas está en **Procedimiento de replicación ETL.pdf**.
 | `2_Scripts_SQL/03_transformacion.sql` | Limpieza, rechazos y duplicados |
 | `2_Scripts_SQL/04_carga.sql` | Carga a ModaEstilo_DW con MERGE |
 | `2_Scripts_SQL/05_OLAP_ModaEstilo_DW.sql` | Crea ModaEstilo_DW con los datos ya limpios (sin pasar por el Excel). Es el que usa Power BI |
+| `2_Scripts_SQL/06_pruebas_calidad.sql` | Pruebas de la sección 5.4: filas extraídas, funciones de limpieza, rechazos, claves huérfanas y totales |
 
 ## Pasos
 
