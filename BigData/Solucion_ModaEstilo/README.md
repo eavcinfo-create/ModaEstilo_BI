@@ -9,6 +9,7 @@ Notebook de PySpark con los datos de `ModaEstilo_DW`. Lee los CSV en DataFrames,
 | `datos/modaestilo_hechos.csv` | 250 filas: 125 líneas de venta y 125 de alquiler (18 columnas, sin datos personales) |
 | `datos/modaestilo_devoluciones.csv` | 107 devoluciones con tipo de falla, gravedad y cargo |
 | `BigData_ModaEstilo.ipynb` | Notebook de Databricks |
+| `capturas/` | Capturas de una ejecución completa (27/11/2026) y `BigData_ModaEstilo_ejecutado.ipynb`, el notebook con sus resultados |
 | `exportar_csv_desde_DW.sql` | Consultas con las que se generaron los CSV desde ModaEstilo_DW (no hace falta ejecutarlo: los CSV ya están en `datos`) |
 
 ## Pasos en Databricks Free Edition
@@ -34,7 +35,9 @@ Los gráficos se hacen en el resultado de cada celda `%sql`: haz clic en **+ →
 
 ## Genie
 
-1. En el menú de la izquierda, haz clic en **Genie → New**.
-2. Elige las 4 tablas `gold_*` de `workspace.moda`.
+1. En el menú de la izquierda, haz clic en **Genie Agents → New** (en otras versiones se llama **Genie**).
+2. Elige las 4 tablas `gold_*` de `workspace.moda` y haz clic en **Create manually**.
 3. En **Instructions** escribe: *Responde en español. Los montos están en soles.*
 4. Pregunta, por ejemplo: *¿Qué canal generó más ingresos?* La respuesta debe ser WhatsApp, con S/ 17 634,05.
+
+En nuestra prueba acertó 3 de 4 preguntas. En *¿Cuántas prendas se devolvieron con falla y cuánto se cobró?* contó 47 prendas en vez de 29, porque sumó las 18 «Sin devolver»; el cargo (S/ 1 454,00) sí coincide.

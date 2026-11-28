@@ -33,13 +33,15 @@ python -m pip install openpyxl
 python 05_generar_excel_volumenes.py "..\..\ETL\1_Fuentes_Excel\Fuentes_ModaEstilo.xlsx" Volumenes "100,500,10000,100000"
 ```
 
-## Resultado obtenido (AMD Ryzen 7 5700X, 32 GB de RAM)
+## Resultado obtenido (27/11/2026, AMD Ryzen 7 5700X, 32 GB de RAM)
 
 | Volumen | Filas leídas | Limpias | % descartadas | Extracción ms | Transformación ms | Carga ms | Total ms | Filas por segundo |
 |---|---|---|---|---|---|---|---|---|
-| 100 | 319 | 291 | 8,78 | 102 | 190 | 90 | 382 | 835 |
-| 500 | 1 467 | 1 367 | 6,82 | 231 | 482 | 273 | 987 | 1 486 |
-| 10 000 | 28 771 | 26 978 | 6,23 | 2 568 | 5 009 | 2 051 | 9 629 | 2 988 |
-| 100 000 | 287 427 | 269 579 | 6,21 | 30 057 | 46 317 | 7 784 | 84 159 | 3 415 |
+| 100 | 319 | 291 | 8,78 | 196 | 155 | 216 | 568 | 562 |
+| 500 | 1 467 | 1 367 | 6,82 | 156 | 323 | 798 | 1 277 | 1 149 |
+| 10 000 | 28 771 | 26 978 | 6,23 | 1 578 | 3 584 | 2 192 | 7 355 | 3 912 |
+| 100 000 | 287 427 | 269 579 | 6,21 | 17 599 | 32 081 | 5 450 | 55 131 | 5 214 |
 
 Los tiempos cambian un poco en cada equipo. Las filas leídas, limpias y rechazadas deben salir iguales.
+
+Los 2 gráficos (tiempo por etapa y filas por segundo) se hicieron en Power BI Desktop con la tabla del resumen (**Inicio → Especificar datos**). Las capturas de esta ejecución están en [`capturas`](capturas).

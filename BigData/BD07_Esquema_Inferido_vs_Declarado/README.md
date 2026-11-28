@@ -19,6 +19,20 @@ Lee el mismo CSV con `inferSchema` y con un esquema declarado (`StructType`) en 
    - **6. Gráfico**: en el resultado, haz clic en **+ → Visualization → Line**. Pon `filas` en el eje X (escala logarítmica) y `inferido_s` y `declarado_s` en el eje Y.
    - **7. Esquemas**: muestra con `printSchema` qué tipo de dato asigna cada forma de lectura.
 
+## Resultado obtenido (27/11/2026, Spark 4.2.0 serverless)
+
+| Filas | inferSchema (s) | StructType (s) | Diferencia |
+|---|---|---|---|
+| 100 | 1,443 | 0,934 | 35,3 % |
+| 500 | 1,338 | 0,852 | 36,3 % |
+| 10 000 | 1,416 | 0,886 | 37,4 % |
+| 100 000 | 1,475 | 0,860 | 41,7 % |
+| 1 000 000 | 2,074 | 1,030 | 50,3 % |
+| 5 000 000 | 4,735 | 1,895 | 60,0 % |
+| 10 000 000 | 10,224 | 3,804 | 62,8 % |
+
+Mediana de 5 repeticiones. Con inferSchema el importe se lee como double y el total de 10 000 000 de filas sale 2 086 975 999,9999454 en vez de 2 086 976 000,00. Las capturas y el notebook ejecutado (`Experimento_BD_Esquema_ejecutado.ipynb`) están en [`capturas`](capturas).
+
 ## Qué comparar
 
 - El tiempo (`inferido_s` frente a `declarado_s`) en cada volumen
